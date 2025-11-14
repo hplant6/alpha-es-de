@@ -1,0 +1,188 @@
+<theme>
+    <view name="gamelist">
+        <carousel name="main">
+            <systemNameSuffix>false</systemNameSuffix>
+        </carousel>
+        <image name="syslogo">
+            <pos>0.05 .12</pos>
+            <path>./../assets/default-media/logos/${system.theme}.svg</path>
+            <maxSize>.2 .07</maxSize>
+            <zIndex>5</zIndex>
+            <color>${sysLogoAltColor}</color>
+        </image> 
+         <text name="collectionName">
+            <size>.6 .02</size>
+            <pos>0.26 .145</pos>
+            <horizontalAlignment>left</horizontalAlignment>
+            <letterCase>uppercase</letterCase>
+            <fontSize>0.065</fontSize>
+            <fontPath>./.${carouselFont}</fontPath>
+            <metadata>systemName</metadata>
+            <defaultValue>:space:</defaultValue> 
+            <color>${gmenu}</color>
+            <lineSpacing>1.5</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+        <text name="gameSystemTxt">
+            <size>.2 .024</size>
+            <pos>0.05 0.465</pos>
+            <horizontalAlignment>left</horizontalAlignment>
+            <letterCase>uppercase</letterCase>
+            <fontSize>0.06</fontSize>
+            <fontPath>${cCollectionSys}</fontPath>
+            <defaultValue>Collection</defaultValue> 
+            <metadata>sourceSystemName</metadata>
+            <defaultValue>Collection</defaultValue> 
+            <color>${cCollectionColor}</color>
+            <lineSpacing>1.5</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+        
+
+
+        <rating name="gamerating">
+            <visible>false</visible>
+        </rating>
+
+    </view>
+   <aspectRatio name="1:1">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.7 .02</size>
+                <pos>0.26 .13</pos>
+                <fontSize>0.023</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.3 .024</size>
+                <pos>0.05 0.465</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+     <aspectRatio name="8:7">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.7 .02</size>
+                <pos>0.26 .133</pos>
+                <fontSize>0.023</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.3 .024</size>
+                <pos>0.05 0.468</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:4">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.7 .02</size>
+                <pos>0.26 .133</pos>
+                <fontSize>0.03</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.3 .024</size>
+                <pos>0.05 0.468</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="4:3">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.7 .02</size>
+                <pos>0.26 .138</pos>
+                <fontSize>0.033</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.3 .024</size>
+                <pos>0.05 0.468</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+     <aspectRatio name="3:2">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.7 .02</size>
+                <pos>0.26 .14</pos>
+                <fontSize>0.035</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.3 .024</size>
+                <pos>0.05 0.47</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+     <aspectRatio name="16:10">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.7 .02</size>
+                <pos>0.26 .14</pos>
+                <fontSize>0.035</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.3 .024</size>
+                <pos>0.05 0.47</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="19.5:9">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.6 .02</size>
+                <pos>0.22 .145</pos>
+                <fontSize>0.065</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.2 .024</size>
+                <pos>0.05 0.465</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="20:9">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.6 .02</size>
+                <pos>0.22 .145</pos>
+                <fontSize>0.065</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.2 .024</size>
+                <pos>0.05 0.465</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.6 .02</size>
+                <pos>0.22 .145</pos>
+                <fontSize>0.065</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.2 .024</size>
+                <pos>0.05 0.465</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+        <view name="gamelist">
+            <text name="collectionName">
+                <size>.6 .02</size>
+                <pos>0.26 .13</pos>
+                <fontSize>0.04</fontSize>
+            </text>
+            <text name="gameSystemTxt">
+                <size>.7 .024</size>
+                <pos>0.05 0.395</pos>
+                <fontSize>0.06</fontSize>
+            </text>
+        </view>
+    </aspectRatio>
+</theme>

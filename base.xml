@@ -1,0 +1,658 @@
+<theme>
+    <!-- Color Primitives ===================================================================-->
+    <variables>
+        <white>ffffff</white>
+        <black>000000</black>
+    </variables>
+
+<!-- Font Sizes -->
+    <fontSize name="large">
+        <variables>
+            
+        </variables>
+    </fontSize>
+    <fontSize name="medium">
+        <variables>
+            
+        </variables>
+    </fontSize>
+    <fontSize name="small">
+        <variables>
+            
+        </variables>
+    </fontSize>
+
+    <colorScheme name="mac">
+        <variables>
+
+        <!-- ASSET PATH ===================================================================-->
+            <assetPath>theme-mac</assetPath>
+
+        <!-- Animated UI Path ================================================================-->
+            <!-- System assets -->
+            <sysSsaver>system-ssaver.json</sysSsaver>
+            <sysSsaverImg>system-ssaver.webp</sysSsaverImg>
+
+            <sysVideo>system-video.json</sysVideo>
+            <sysVideoImg>system-video.webp</sysVideoImg>
+
+            <sysCart>system-cart.json</sysCart>
+            <sysCartImg>system-cart.webp</sysCartImg>
+
+            <!-- gamelist assets -->
+            <glistPlain>gamelist-plain.json</glistPlain>
+            <glistPlainImg>gamelist-plain.webp</glistPlainImg>
+
+            <glistGrid>gamelist-grid.json</glistGrid>
+            <glistGridImg>gamelist-grid.webp</glistGridImg>
+
+            <glistCart>gamelist-cart.json</glistCart>
+            <glistCartImg>gamelist-cart.webp</glistCartImg>
+
+        <!-- THEME TOGGLES ===================================================================-->
+            
+            <!-- lottie UI animations -->
+            <lottieUI>true</lottieUI>
+
+            <!-- lottie UI STAIC replacement -->
+            <imageUI>false</imageUI>
+
+            <!-- Game list lightbox & frames -->
+            <glistframe>true</glistframe>
+
+            <!-- noise lottie -->
+            <noise>false</noise>
+
+            <!-- Alpha logo Visible-->
+            <alphaTit>true</alphaTit>
+
+            <!-- Noise video -->
+            <glistNoise>true</glistNoise>
+            <sysNoise>true</sysNoise>
+            <noiseItCount>0</noiseItCount>
+            <sNOpacity>.1</sNOpacity>
+            <iterationDone>nothing</iterationDone>
+
+            <!-- sys view image/video frame -->
+            <frame>true</frame>
+            
+            <!-- sys view cartridge shadow -->
+            <cshadow>true</cshadow>
+
+            <!-- glist bgfill gradient (for still image) -->
+            <bgfil>true</bgfil>
+
+            <!-- glist cover art trasparency -->
+            <tvalue>50</tvalue>
+            <coverTcolor>ffffff</coverTcolor>
+
+        <!-- Color UI ===================================================================-->
+
+            <glist>DFC1A1</glist>
+            <gmenu>444444</gmenu>
+            <gmenuAlt>${white}</gmenuAlt>
+            <gmenuAlt2>222222</gmenuAlt2>
+            <ratingColor>${white}</ratingColor>
+            <sysLogoColor>${white}</sysLogoColor>
+            <sysLogoAltColor>${white}</sysLogoAltColor>
+            <badgeIconColor>${white}</badgeIconColor>
+            <controllerColor>67f1f1</controllerColor>
+            <gameratingColor>${white}</gameratingColor>
+            <ccColor>444444</ccColor>
+            <gameratingAltColor>${white}</gameratingAltColor>
+             <folderICNcolor>${white}</folderICNcolor>
+             <folderPOS>.55 .57 </folderPOS>
+            <folderSize>.25</folderSize>
+
+        <!-- SOUNDS ===================================================================-->
+
+            <soundBrowse>./assets/theme-mac/sounds/Frog.wav</soundBrowse>
+            <soundQselect>./assets/theme-mac/sounds/Pop.wav</soundQselect>
+            <soundSelect>./assets/theme-mac/sounds/hero.wav</soundSelect>
+            <soundBack>./assets/theme-mac/sounds/Sosumi.wav</soundBack>
+            <soundScroll>./assets/theme-mac/sounds/click_01.wav</soundScroll>
+            <soundFav>./assets/theme-mac/sounds/StartupMacQuadra.wav</soundFav>
+            <soundLaunch>./assets/theme-mac/sounds/start2.wav</soundLaunch>
+            
+
+        <!-- ASSETS ===================================================================-->
+
+            <!-- Fonts & treatment -->
+            <carouselFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</carouselFont>
+            <carouselLC>none</carouselLC>
+            <carouselColor>222222</carouselColor>
+            <carouselAltColor>${white}</carouselAltColor>
+            <carItemColor>DFC1A1</carItemColor>
+            <carItemAltColor>${white}</carItemAltColor>
+            <carItemAltColor2>DFC1A1</carItemAltColor2>
+            
+            <recentTit>./assets/theme-mac/type/Corza.ttf</recentTit>
+            <recentTitColor>222222</recentTitColor>
+            <recentRotate>6</recentRotate>
+            <roidRotate>4</roidRotate>
+            <roidGradientEnd>${white}</roidGradientEnd>
+
+            <gstats>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gstats>
+            <gstatsColor>DFC1A1</gstatsColor>
+            <gstatsAltColor>${white}</gstatsAltColor>
+
+            <clock>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</clock>
+
+            <battlvl>./assets/theme-mac/type/marvin-trial.otf</battlvl>
+
+            <helpFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</helpFont>
+
+            <alpha>./assets/theme-mac/type/trapper.ttf</alpha>
+
+            <gcount>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gcount>
+            <gcountColor>DFC1A1</gcountColor>
+
+            <cCollectionSys>./../assets/theme-mac/type/marvin-trial.otf</cCollectionSys>
+            <cCollectionColor>${white}</cCollectionColor>
+
+            <playtimeFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</playtimeFont>
+            <playtimeColor>${white}</playtimeColor>
+            
+           
+
+            <!-- Animated UI -->
+
+
+            <!-- Background Images -->
+            <sysbk>./assets/theme-mac/animations/background.webp</sysbk>
+            <bgGradientEnd>1f0f0070</bgGradientEnd>
+            <gameBKv>./assets/theme-mac/animations/gamelist/gbackground-video.webp</gameBKv>
+            <gameBKp>./assets/theme-mac/animations/gamelist/gbackground-plain.webp</gameBKp>
+            <gameBKb>./assets/theme-mac/animations/gamelist/gbackground-blank.webp</gameBKb>
+
+            <!-- Badge Icons -->
+            <favoriteB>./assets/theme-mac/icons/badge-favorite.webp</favoriteB>
+            <collectionB>./assets/theme-mac/icons/badge-collection.webp</collectionB>
+            <folderB>./assets/theme-mac/icons/badge-folder.webp</folderB>
+            <completedB>./assets/theme-mac/icons/badge-complete.webp</completedB>
+            <kidgameB>./assets/theme-mac/icons/badge-kidgame.webp</kidgameB>
+            <brokenB>./assets/theme-mac/icons/badge-broken.webp</brokenB>
+            <controllerB>./assets/theme-mac/icons/badge-controller.webp</controllerB>
+            <altemulatorB>./assets/theme-mac/icons/badge-altemulator.webp</altemulatorB>
+            <manualB>./assets/theme-mac/icons/badge-manual.webp</manualB>
+
+            <!-- Status Indicators -->
+            <icon_battery_low>./assets/theme-mac/icons/bat-low.svg</icon_battery_low>
+            <icon_battery_medium>./assets/theme-mac/icons/bat-med.svg</icon_battery_medium>
+            <icon_battery_high>./assets/theme-mac/icons/bat-high.svg</icon_battery_high>
+            <icon_battery_full>./assets/theme-mac/icons/bat-full.svg</icon_battery_full>
+            <battery_charging>./assets/theme-mac/icons/bat-charg.svg</battery_charging>
+        </variables>
+    </colorScheme>
+    <colorScheme name="maclp">
+        <variables>
+
+        <!-- ASSET PATH ===================================================================-->
+            <assetPath>theme-mac</assetPath>
+
+        <!-- Animated UI Path ================================================================-->
+            <!-- System assets -->
+            <sysSsaver>system-ssaver.json</sysSsaver>
+            <sysSsaverImg>system-ssaver.webp</sysSsaverImg>
+
+            <sysVideo>system-video.json</sysVideo>
+            <sysVideoImg>system-video.webp</sysVideoImg>
+
+            <sysCart>system-cart.json</sysCart>
+            <sysCartImg>system-cart.webp</sysCartImg>
+
+            <!-- gamelist assets -->
+            <glistPlain>gamelist-plain.json</glistPlain>
+            <glistPlainImg>gamelist-plain.webp</glistPlainImg>
+
+            <glistGrid>gamelist-grid.json</glistGrid>
+            <glistGridImg>gamelist-grid.webp</glistGridImg>
+
+            <glistCart>gamelist-cart.json</glistCart>
+            <glistCartImg>gamelist-cart.webp</glistCartImg>
+
+        <!-- THEME TOGGLES ===================================================================-->
+            
+            <!-- lottie UI animations -->
+            <lottieUI>false</lottieUI>
+
+            <!-- lottie UI STAIC replacement-->
+            <imageUI>true</imageUI>
+
+            <!-- Game list lightbox & frames -->
+            <glistframe>true</glistframe>
+
+            <!-- Alpha logo Visible-->
+            <alphaTit>true</alphaTit>
+
+            <!-- noise lottie -->
+            <noise>false</noise>
+
+            <!-- Noise video -->
+            <glistNoise>false</glistNoise>
+            <sysNoise>false</sysNoise>
+            <noiseItCount>0</noiseItCount>
+            <sNOpacity>.1</sNOpacity>
+            <iterationDone>nothing</iterationDone>
+
+            <!-- sys view image/video frame -->
+            <frame>true</frame>
+            
+            <!-- sys view cartridge shadow -->
+            <cshadow>true</cshadow>
+
+            <!-- glist bgfill gradient (for still image) -->
+            <bgfil>true</bgfil>
+
+            <!-- glist cover art trasparency -->
+            <tvalue>50</tvalue>
+            <coverTcolor>ffffff</coverTcolor>
+
+        <!-- Color UI ===================================================================-->
+
+            <glist>DFC1A1</glist>
+            <gmenu>444444</gmenu>
+            <gmenuAlt>${white}</gmenuAlt>
+            <gmenuAlt2>222222</gmenuAlt2>
+            <ratingColor>${white}</ratingColor>
+            <sysLogoColor>${white}</sysLogoColor>
+            <sysLogoAltColor>${white}</sysLogoAltColor>
+            <badgeIconColor>${white}</badgeIconColor>
+            <controllerColor>67f1f1</controllerColor>
+            <gameratingAltColor>${white}</gameratingAltColor>
+            <ccColor>444444</ccColor>
+            <folderICNcolor>${white}</folderICNcolor>
+            <folderPOS>.55 .57 </folderPOS>
+            <folderSize>.25</folderSize>
+
+        <!-- SOUNDS ===================================================================-->
+
+            <soundBrowse>./assets/theme-mac/sounds/Frog.wav</soundBrowse>
+            <soundQselect>./assets/theme-mac/sounds/Pop.wav</soundQselect>
+            <soundSelect>./assets/theme-mac/sounds/hero.wav</soundSelect>
+            <soundBack>./assets/theme-mac/sounds/Sosumi.wav</soundBack>
+            <soundScroll>./assets/theme-mac/sounds/click_01.wav</soundScroll>
+            <soundFav>./assets/theme-mac/sounds/StartupMacQuadra.wav</soundFav>
+            <soundLaunch>./assets/theme-mac/sounds/start2.wav</soundLaunch>
+            <gameratingColor>${white}</gameratingColor>
+
+        <!-- ASSETS ===================================================================-->
+
+            <!-- Fonts & treatment -->
+            <carouselFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</carouselFont>
+            <carouselLC>uppercase</carouselLC>
+            <carouselColor>222222</carouselColor>
+            <carouselAltColor>${white}</carouselAltColor>
+            <carItemColor>DFC1A1</carItemColor>
+            <carItemAltColor>${white}</carItemAltColor>
+            <carItemAltColor2>DFC1A1</carItemAltColor2>
+
+            <recentTit>./assets/theme-mac/type/Corza.ttf</recentTit>
+            <recentTitColor>222222</recentTitColor>
+            <recentRotate>6</recentRotate>
+            <roidRotate>4</roidRotate>
+            <roidGradientEnd>${white}</roidGradientEnd>
+
+            <gstats>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gstats>
+            <gstatsColor>DFC1A1</gstatsColor>
+            <gstatsAltColor>${white}</gstatsAltColor>
+            
+            <clock>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</clock>
+
+            <battlvl>./assets/theme-mac/type/marvin-trial.otf</battlvl>
+            
+            <helpFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</helpFont>
+            
+            <alpha>./assets/theme-mac/type/trapper.ttf</alpha>
+            
+            <gcount>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gcount>
+            <gcountColor>DFC1A1</gcountColor>
+
+            <cCollectionSys>./../theme-clean/type/trapper.ttf</cCollectionSys>
+            <cCollectionColor>${white}</cCollectionColor>
+
+            <playtimeFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</playtimeFont>
+            <playtimeColor>${white}</playtimeColor>
+            
+
+            <!-- Background Images -->
+            <sysbk>./assets/theme-mac/animations/background.webp</sysbk>
+            <bgGradientEnd>1f0f0070</bgGradientEnd>
+            <gameBKv>./assets/theme-mac/animations/gamelist/gbackground-video.webp</gameBKv>
+            <gameBKp>./assets/theme-mac/animations/gamelist/gbackground-plain.webp</gameBKp>
+            <gameBKb>./assets/theme-mac/animations/gamelist/gbackground-blank.webp</gameBKb>
+
+            <!-- Badge Icons -->
+            <favoriteB>./assets/theme-mac/icons/badge-favorite.webp</favoriteB>
+            <collectionB>./assets/theme-mac/icons/badge-collection.webp</collectionB>
+            <folderB>./assets/theme-mac/icons/badge-folder.webp</folderB>
+            <completedB>./assets/theme-mac/icons/badge-complete.webp</completedB>
+            <kidgameB>./assets/theme-mac/icons/badge-kidgame.webp</kidgameB>
+            <brokenB>./assets/theme-mac/icons/badge-broken.webp</brokenB>
+            <controllerB>./assets/theme-mac/icons/badge-controller.webp</controllerB>
+            <altemulatorB>./assets/theme-mac/icons/badge-altemulator.webp</altemulatorB>
+            <manualB>./assets/theme-mac/icons/badge-manual.webp</manualB>
+
+            <!-- Status Indicators -->
+            <icon_battery_low>./assets/theme-mac/icons/bat-low.svg</icon_battery_low>
+            <icon_battery_medium>./assets/theme-mac/icons/bat-med.svg</icon_battery_medium>
+            <icon_battery_high>./assets/theme-mac/icons/bat-high.svg</icon_battery_high>
+            <icon_battery_full>./assets/theme-mac/icons/bat-full.svg</icon_battery_full>
+            <battery_charging>./assets/theme-mac/icons/bat-charg.svg</battery_charging>
+        </variables>
+    </colorScheme>
+    <colorScheme name="clean">
+        <variables>
+
+        <!-- ASSET PATH ===================================================================-->
+            <assetPath>theme-clean</assetPath>
+
+        <!-- Animated UI Path ================================================================-->
+            <!-- System assets -->
+            <sysSsaver>system-ssaver.json</sysSsaver>
+            <sysSsaverImg>system-ssaver.webp</sysSsaverImg>
+
+            <sysVideo>system-video.json</sysVideo>
+            <sysVideoImg>system-video.webp</sysVideoImg>
+
+            <sysCart>system-video.json</sysCart>
+            <sysCartImg>system-video.webp</sysCartImg>
+
+            <!-- gamelist assets -->
+            <glistPlain>gamelist-plain.json</glistPlain>
+            <glistPlainImg>gamelist-plain.webp</glistPlainImg>
+
+            <glistGrid>gamelist-plain.json</glistGrid>
+            <glistGridImg>gamelist-plain.webp</glistGridImg>
+
+            <glistCart>gamelist-plain.json</glistCart>
+            <glistCartImg>gamelist-plain.webp</glistCartImg>
+
+        <!-- THEME TOGGLES ===================================================================-->
+            
+            <!-- lottie UI animations -->
+            <lottieUI>true</lottieUI>
+
+            <!-- lottie UI STAIC replacement -->
+            <imageUI>false</imageUI>
+
+            <!-- Game list lightbox & frames -->
+            <glistframe>true</glistframe>
+
+            <!-- Alpha logo Visible-->
+            <alphaTit>false</alphaTit>
+
+            <!-- noise lottie -->
+            <noise>false</noise>
+
+            <!-- Noise video -->
+            <glistNoise>false</glistNoise>
+            <sysNoise>false</sysNoise>
+            <noiseItCount>1</noiseItCount>
+            <sNOpacity>.2</sNOpacity>
+            <iterationDone>none</iterationDone>
+
+            <!-- sys view image/video frame -->
+            <frame>false</frame>
+            
+            <!-- sys view cartridge shadow -->
+            <cshadow>false</cshadow>
+
+            <!-- glist bgfill gradient (for still image) -->
+            <bgfil>false</bgfil>
+
+            <!-- glist cover art trasparency -->
+            <tvalue>FF</tvalue>
+            <coverTcolor>000000</coverTcolor>
+
+        <!-- Color UI ===================================================================-->
+
+            <glist>${white}</glist>
+            <gmenu>${white}</gmenu>
+            <gmenuAlt>${white}</gmenuAlt>
+            <gmenuAlt2>${white}</gmenuAlt2>
+            <gameratingAltColor>${white}</gameratingAltColor>
+            <gameratingColor>${white}</gameratingColor>
+            <sysLogoColor>${white}</sysLogoColor>
+            <sysLogoAltColor>${white}</sysLogoAltColor>
+            <badgeIconColor>${white}</badgeIconColor>
+            <controllerColor>${white}</controllerColor>
+            <gameratingColor>${white}</gameratingColor>
+            <ccColor>444444</ccColor>
+            <folderICNcolor>${white}</folderICNcolor>
+            <folderPOS>.5 .55 </folderPOS>
+            <folderSize>.35</folderSize>
+
+        <!-- SOUNDS ===================================================================-->
+
+            <soundBrowse>./assets/theme-clean/sounds/FGBS(11).wav</soundBrowse>
+            <soundQselect>./assets/theme-clean/sounds/FGBS(10).wav</soundQselect>
+            <soundSelect>./assets/theme-clean/sounds/click4.wav</soundSelect>
+            <soundBack>./assets/theme-clean/sounds/click1.wav</soundBack>
+            <soundScroll>./assets/theme-clean/sounds/FGBS(11).wav</soundScroll>
+            <soundFav>./assets/theme-clean/sounds/favBest.wav</soundFav>
+            <soundLaunch>./assets/theme-clean/sounds/start1.wav</soundLaunch>
+
+        <!-- ASSETS ===================================================================-->
+
+            <!-- Fonts & treatment -->
+            <carouselFont>./assets/theme-clean/type/clean-Light.ttf</carouselFont>
+            <carouselLC>uppercase</carouselLC>
+            <carouselColor>${white}</carouselColor>
+            <carouselAltColor>${white}</carouselAltColor>
+            <carItemColor>${white}</carItemColor>
+            <carItemAltColor>${white}</carItemAltColor>
+            <carItemAltColor2>${white}</carItemAltColor2>
+
+            <recentTit>./assets/theme-clean/type/clean-Light.ttf</recentTit>
+            <recentTitColor>${white}</recentTitColor>
+            <recentRotate>6</recentRotate>
+            <roidRotate>4</roidRotate>
+            <roidGradientEnd>${black}</roidGradientEnd>
+
+            <gstats>./assets/theme-clean/type/clean-ExtraLight.ttf</gstats>
+            <gstatsColor>${white}</gstatsColor>
+            <gstatsAltColor>${white}</gstatsAltColor>
+
+            <clock>./assets/theme-clean/type/clean-ExtraLight.ttf</clock>
+
+            <battlvl>./assets/theme-clean/type/clean-ExtraLight.ttf</battlvl>
+
+            <helpFont>./assets/theme-clean/type/clean-Light.ttf</helpFont>
+
+            <alpha>./assets/theme-clean/type/future-earth.ttf</alpha>
+
+            <gcount>./assets/theme-clean/type/clean-ExtraLight.ttf</gcount>
+            <gcountColor>${white}</gcountColor>
+
+            <cCollectionSys>./../theme-clean/type/clean-Black.ttf</cCollectionSys>
+            <cCollectionColor>${white}</cCollectionColor>
+
+            <playtimeFont>./theme-clean/type/clean-Black.ttf</playtimeFont>
+            <playtimeColor>${white}</playtimeColor>
+            
+
+            <!-- Background Images -->
+            <sysbk>./assets/theme-clean/animations/background.webp</sysbk>
+            <bgGradientEnd>131315</bgGradientEnd>
+            <gameBKv>./assets/theme-clean/animations/gamelist/gbackground-video.webp</gameBKv>
+            <gameBKp>./assets/theme-clean/animations/gamelist/gbackground-plain.webp</gameBKp>
+            <gameBKb>./assets/theme-clean/animations/gamelist/gbackground-blank.webp</gameBKb>
+
+            <!-- Badge Icons -->
+            <favoriteB>./assets/theme-clean/icons/badge-favorite.webp</favoriteB>
+            <collectionB>./assets/theme-clean/icons/badge-collection.webp</collectionB>
+            <folderB>./assets/theme-clean/icons/badge-folder.webp</folderB>
+            <completedB>./assets/theme-clean/icons/badge-complete.webp</completedB>
+            <kidgameB>./assets/theme-clean/icons/badge-kidgame.webp</kidgameB>
+            <brokenB>./assets/theme-clean/icons/badge-broken.webp</brokenB>
+            <controllerB>./assets/theme-clean/icons/badge-controller.webp</controllerB>
+            <altemulatorB>./assets/theme-clean/icons/badge-altemulator.webp</altemulatorB>
+            <manualB>./assets/theme-clean/icons/badge-manual.webp</manualB>
+
+            <!-- Status Indicators -->
+            <icon_battery_low>./assets/theme-clean/icons/bat-low.svg</icon_battery_low>
+            <icon_battery_medium>./assets/theme-clean/icons/bat-med.svg</icon_battery_medium>
+            <icon_battery_high>./assets/theme-clean/icons/bat-high.svg</icon_battery_high>
+            <icon_battery_full>./assets/theme-clean/icons/bat-full.svg</icon_battery_full>
+            <battery_charging>./assets/theme-clean/icons/bat-charg.svg</battery_charging>
+        </variables>
+    </colorScheme>
+    <colorScheme name="cleanLP">
+        <variables>
+
+        <!-- ASSET PATH ===================================================================-->
+            <assetPath>theme-clean</assetPath>
+
+        <!-- Animated UI Path ================================================================-->
+            <!-- System assets -->
+            <sysSsaver>system-ssaver.json</sysSsaver>
+            <sysSsaverImg>system-ssaver.webp</sysSsaverImg>
+
+            <sysVideo>system-video.json</sysVideo>
+            <sysVideoImg>system-video.webp</sysVideoImg>
+
+            <sysCart>system-video.json</sysCart>
+            <sysCartImg>system-video.webp</sysCartImg>
+
+            <!-- gamelist assets -->
+            <glistPlain>gamelist-plain.json</glistPlain>
+            <glistPlainImg>gamelist-plain.webp</glistPlainImg>
+
+            <glistGrid>gamelist-plain.json</glistGrid>
+            <glistGridImg>gamelist-plain.webp</glistGridImg>
+
+            <glistCart>gamelist-plain.json</glistCart>
+            <glistCartImg>gamelist-plain.webp</glistCartImg>
+
+        <!-- THEME TOGGLES ===================================================================-->
+            
+            <!-- lottie UI animations -->
+            <lottieUI>true</lottieUI>
+
+            <!-- lottie UI STAIC replacement -->
+            <imageUI>false</imageUI>
+
+            <!-- Game list lightbox & frames -->
+            <glistframe>true</glistframe>
+
+            <!-- Alpha logo Visible-->
+            <alphaTit>false</alphaTit>
+
+            <!-- noise lottie -->
+            <noise>false</noise>
+
+            <!-- Noise video -->
+            <glistNoise>false</glistNoise>
+            <sysNoise>false</sysNoise>
+            <noiseItCount>1</noiseItCount>
+            <sNOpacity>.2</sNOpacity>
+            <iterationDone>none</iterationDone>
+
+            <!-- sys view image/video frame -->
+            <frame>false</frame>
+            
+            <!-- sys view cartridge shadow -->
+            <cshadow>false</cshadow>
+
+            <!-- glist bgfill gradient (for still image) -->
+            <bgfil>false</bgfil>
+
+            <!-- glist cover art trasparency -->
+            <tvalue>FF</tvalue>
+            <coverTcolor>000000</coverTcolor>
+
+        <!-- Color UI ===================================================================-->
+
+            <glist>${white}</glist>
+            <gmenu>${white}</gmenu>
+            <gmenuAlt>${white}</gmenuAlt>
+            <gmenuAlt2>${white}</gmenuAlt2>
+            <gameratingAltColor>${white}</gameratingAltColor>
+            <gameratingColor>${white}</gameratingColor>
+            <sysLogoColor>${white}</sysLogoColor>
+            <sysLogoAltColor>${white}</sysLogoAltColor>
+            <badgeIconColor>${white}</badgeIconColor>
+            <controllerColor>${white}</controllerColor>
+            <gameratingColor>${white}</gameratingColor>
+            <ccColor>444444</ccColor>
+            <folderICNcolor>${white}</folderICNcolor>
+            <folderPOS>.5 .55 </folderPOS>
+            <folderSize>.35</folderSize>
+
+        <!-- SOUNDS ===================================================================-->
+
+            <soundBrowse>./assets/theme-clean/sounds/FGBS(11).wav</soundBrowse>
+            <soundQselect>./assets/theme-clean/sounds/FGBS(10).wav</soundQselect>
+            <soundSelect>./assets/theme-clean/sounds/click4.wav</soundSelect>
+            <soundBack>./assets/theme-clean/sounds/click1.wav</soundBack>
+            <soundScroll>./assets/theme-clean/sounds/FGBS(11).wav</soundScroll>
+            <soundFav>./assets/theme-clean/sounds/favBest.wav</soundFav>
+            <soundLaunch>./assets/theme-clean/sounds/start1.wav</soundLaunch>
+
+        <!-- ASSETS ===================================================================-->
+
+            <!-- Fonts & treatment -->
+            <carouselFont>./assets/theme-clean/type/clean-Light.ttf</carouselFont>
+            <carouselLC>uppercase</carouselLC>
+            <carouselColor>${white}</carouselColor>
+            <carouselAltColor>${white}</carouselAltColor>
+            <carItemColor>${white}</carItemColor>
+            <carItemAltColor>${white}</carItemAltColor>
+            <carItemAltColor2>${white}</carItemAltColor2>
+
+            <recentTit>./assets/theme-clean/type/clean-Light.ttf</recentTit>
+            <recentTitColor>${white}</recentTitColor>
+            <recentRotate>6</recentRotate>
+            <roidRotate>4</roidRotate>
+            <roidGradientEnd>${black}</roidGradientEnd>
+
+            <gstats>./assets/theme-clean/type/clean-ExtraLight.ttf</gstats>
+            <gstatsColor>${white}</gstatsColor>
+            <gstatsAltColor>${white}</gstatsAltColor>
+
+            <clock>./assets/theme-clean/type/clean-ExtraLight.ttf</clock>
+
+            <battlvl>./assets/theme-clean/type/clean-ExtraLight.ttf</battlvl>
+
+            <helpFont>./assets/theme-clean/type/clean-Light.ttf</helpFont>
+
+            <alpha>./assets/theme-clean/type/future-earth.ttf</alpha>
+
+            <gcount>./assets/theme-clean/type/clean-ExtraLight.ttf</gcount>
+            <gcountColor>${white}</gcountColor>
+
+            <cCollectionSys>./../theme-clean/type/clean-Black.ttf</cCollectionSys>
+            <cCollectionColor>${white}</cCollectionColor>
+
+            <playtimeFont>./theme-clean/type/clean-Black.ttf</playtimeFont>
+            <playtimeColor>${white}</playtimeColor>
+            
+
+            <!-- Background Images -->
+            <sysbk>./assets/theme-clean/animations/background.webp</sysbk>
+            <bgGradientEnd>131315</bgGradientEnd>
+            <gameBKv>./assets/theme-clean/animations/gamelist/gbackground-video.webp</gameBKv>
+            <gameBKp>./assets/theme-clean/animations/gamelist/gbackground-plain.webp</gameBKp>
+            <gameBKb>./assets/theme-clean/animations/gamelist/gbackground-blank.webp</gameBKb>
+
+            <!-- Badge Icons -->
+            <favoriteB>./assets/theme-clean/icons/badge-favorite.webp</favoriteB>
+            <collectionB>./assets/theme-clean/icons/badge-collection.webp</collectionB>
+            <folderB>./assets/theme-clean/icons/badge-folder.webp</folderB>
+            <completedB>./assets/theme-clean/icons/badge-complete.webp</completedB>
+            <kidgameB>./assets/theme-clean/icons/badge-kidgame.webp</kidgameB>
+            <brokenB>./assets/theme-clean/icons/badge-broken.webp</brokenB>
+            <controllerB>./assets/theme-clean/icons/badge-controller.webp</controllerB>
+            <altemulatorB>./assets/theme-clean/icons/badge-altemulator.webp</altemulatorB>
+            <manualB>./assets/theme-clean/icons/badge-manual.webp</manualB>
+
+            <!-- Status Indicators -->
+            <icon_battery_low>./assets/theme-clean/icons/bat-low.svg</icon_battery_low>
+            <icon_battery_medium>./assets/theme-clean/icons/bat-med.svg</icon_battery_medium>
+            <icon_battery_high>./assets/theme-clean/icons/bat-high.svg</icon_battery_high>
+            <icon_battery_full>./assets/theme-clean/icons/bat-full.svg</icon_battery_full>
+            <battery_charging>./assets/theme-clean/icons/bat-charg.svg</battery_charging>
+        </variables>
+    </colorScheme>
+</theme>

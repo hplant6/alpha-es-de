@@ -1,0 +1,864 @@
+<theme>
+    <view name="gamelist">
+         <carousel name="games">
+                <origin>.5 0</origin>
+                <pos>.5 .3</pos>	
+                <size>1.07 1</size>
+                <fontSize>.036</fontSize>
+                <itemSize>.2 .3</itemSize> 
+                <fontPath>${carouselFont}</fontPath>
+                <letterCase>${carouselLC}</letterCase>
+                <imageType>physicalmedia, cover</imageType>
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>.08 .08</selectedItemMargins>
+                <selectedItemOffset>0 -.06</selectedItemOffset>
+                <itemScale>1.85</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <defaultImage>./assets/default-media/physical-media/${system.theme}.webp</defaultImage>
+                <defaultFolderImage>./assets/default-media/physical-media/folder.png</defaultFolderImage>
+                <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+                <color>${carItemColor}00</color>
+                <fastScrolling>true</fastScrolling>
+                <textColor>${carItemColor}</textColor>
+                <textSelectedColor>${carouselAltColor}</textSelectedColor>
+                <zIndex>5</zIndex>
+        </carousel>
+        <text name="game-title">
+            <pos>.5 .29</pos>
+            <origin>.5 0</origin>
+            <size>.8 .07</size>
+            <fontPath>${carouselFont}</fontPath>
+            <letterCase>${carouselLC}</letterCase>
+            <defaultValue>unknown...</defaultValue>
+            <fontSize>.1</fontSize>
+            <metadata>name</metadata>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${carouselAltColor}</color>
+            <letterCase>capitalize</letterCase>
+            <zIndex>5</zIndex>
+        </text>
+        <text name="playtimeLBL">    
+                <pos>.625 .53</pos>
+                <size>.15 .018</size>
+                <horizontalAlignment>left</horizontalAlignment>
+                <fontPath>${playtimeFont}</fontPath>
+                <fontSize>.022</fontSize>
+                <text>Time Invested:</text>
+                <defaultValue>Never Played</defaultValue>
+                <color>${carouselAltColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>10</zIndex>
+        </text> 
+        <text name="playtime">    
+                <pos>.71 .53</pos>
+                <size>.15 .018</size>
+                <horizontalAlignment>left</horizontalAlignment>
+                <fontPath>${playtimeFont}</fontPath>
+                <fontSize>.022</fontSize>
+                <metadata>playtime</metadata>
+                <defaultValue>Never Played</defaultValue>
+                <color>${playtimeColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>10</zIndex>
+        </text>
+        <rating name="gamerating">
+            <pos>0.045 0.44</pos>
+            <size> .053 .03 </size>
+            <color>${gameratingColor}</color>
+            <zIndex>5</zIndex>
+        </rating>
+        <gamelistinfo name="gcount">
+            <pos>0.05 .19</pos>
+            <size>.2 .07</size>
+            <fontPath>${gcount}</fontPath>
+            <color>${gcountColor}</color>
+            <fontSize>.028</fontSize>
+            <zIndex>5</zIndex>
+        </gamelistinfo>
+        <badges name="gbadges">
+            <pos>0.04 0.51</pos>
+            <origin>0 0</origin>
+            <size>.35 .07</size>
+            <direction>row</direction> 
+            <lines>6</lines>
+            <itemsPerLine>6</itemsPerLine>
+            <itemMargin> 0.12 0.12</itemMargin>
+            <slots>all</slots>
+            <horizontalAlignment>left</horizontalAlignment>
+            <badgeIconColor>${badgeIconColor}</badgeIconColor>
+            <controllerIconColor>${controllerColor}</controllerIconColor>
+            <customBadgeIcon badge="favorite">${favoriteB}</customBadgeIcon>
+            <customBadgeIcon badge="collection">${collectionB}</customBadgeIcon>
+            <customBadgeIcon badge="folder">${folderB}</customBadgeIcon>
+            <customBadgeIcon badge="completed">${completedB}</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">${kidgameB}</customBadgeIcon>
+            <customBadgeIcon badge="broken">${brokenB}</customBadgeIcon>
+            <customBadgeIcon badge="controller">${controllerB}</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">${altemulatorB}</customBadgeIcon>
+            <customBadgeIcon badge="manual">${manualB}</customBadgeIcon>
+
+            <folderLinkIconColor>${folderICNcolor}</folderLinkIconColor>
+            <folderLinkPos>${folderPOS}</folderLinkPos>
+            <folderLinkSize>${folderSize}</folderLinkSize>
+            <customFolderLinkIcon>./assets/icons/folder-link.svg</customFolderLinkIcon>
+
+            <customControllerIcon controller="gamepad_generic">./assets/icons/controllers/gamepad_generic.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_nintendo_nes">./assets/icons/controllers/gamepad_nintendo_nes.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_nintendo_snes">./assets/icons/controllers/gamepad_nintendo_snes.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_nintendo_64">./assets/icons/controllers/gamepad_nintendo_64.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_nintendo_gamecube">./assets/icons/controllers/gamepad_nintendo_gamecube.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_playstation">./assets/icons/controllers/gamepad_playstation.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_sega_master_system">./assets/icons/controllers/gamepad_sega_master_system.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_sega_md_3_buttons">./assets/icons/controllers/gamepad_sega_md_3_buttons.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_sega_md_6_buttons">./assets/icons/controllers/gamepad_sega_md_6_buttons.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_sega_dreamcast">./assets/icons/controllers/gamepad_sega_dreamcast.svg</customControllerIcon>
+            <customControllerIcon controller="gamepad_xbox">./assets/icons/controllers/gamepad_xbox.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_generic">./assets/icons/controllers/joystick_generic.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_arcade_no_buttons">./assets/icons/controllers/joystick_arcade_no_buttons.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_arcade_no_buttons_twin">./assets/icons/controllers/joystick_arcade_no_buttons_twin.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_arcade_1_button">./assets/icons/controllers/joystick_arcade_1_button.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_arcade_2_buttons">./assets/icons/controllers/joystick_arcade_2_buttons.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_arcade_3_buttons">./assets/icons/controllers/joystick_arcade_3_buttons.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_arcade_4_buttons">./assets/icons/controllers/joystick_arcade_4_buttons.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_arcade_5_buttons">./assets/icons/controllers/joystick_arcade_5_buttons.svg</customControllerIcon>
+            <customControllerIcon controller="joystick_arcade_6_buttons">./assets/icons/controllers/joystick_arcade_6_buttons.svg</customControllerIcon>
+            <customControllerIcon controller="keyboard_generic">./assets/icons/controllers/keyboard_generic.svg</customControllerIcon>
+            <customControllerIcon controller="keyboard_and_mouse_generic">./assets/icons/controllers/keyboard_and_mouse_generic.svg</customControllerIcon>
+            <customControllerIcon controller="mouse_amiga">./assets/icons/controllers/mouse_amiga.svg</customControllerIcon>
+            <customControllerIcon controller="lightgun_generic">./assets/icons/controllers/lightgun_generic.svg</customControllerIcon>
+            <customControllerIcon controller="lightgun_nintendo">./assets/icons/controllers/lightgun_nintendo.svg</customControllerIcon>
+            <customControllerIcon controller="steering_wheel_generic">./assets/icons/controllers/steering_wheel_generic.svg</customControllerIcon>
+            <customControllerIcon controller="flight_stick_generic">./assets/icons/controllers/flight_stick_generic.svg</customControllerIcon>
+            <customControllerIcon controller="spinner_generic">./assets/icons/controllers/spinner_generic.svg</customControllerIcon>
+            <customControllerIcon controller="trackball_generic">./assets/icons/controllers/trackball_generic.svg</customControllerIcon>
+            <customControllerIcon controller="wii_remote_nintendo">./assets/icons/controllers/wii_remote_nintendo.svg</customControllerIcon>
+            <customControllerIcon controller="wii_remote_and_nunchuk_nintendo">./assets/icons/controllers/wii_remote_and_nunchuk_nintendo.svg</customControllerIcon>
+            <customControllerIcon controller="joycon_left_or_right_nintendo">./assets/icons/controllers/joycon_left_or_right_nintendo.svg</customControllerIcon>
+            <customControllerIcon controller="joycon_pair_nintendo">./assets/icons/controllers/joycon_pair_nintendo.svg</customControllerIcon>
+            <customControllerIcon controller="xbox_kinect">./assets/icons/controllers/xbox_kinect.svg</customControllerIcon>
+            <customControllerIcon controller="unknown">./assets/icons/controllers/unknown.svg</customControllerIcon>
+            <zIndex>6</zIndex>
+        </badges>
+        <animation name="lines">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <visible>${lottieUI}</visible>
+            <path>./assets/${assetPath}/animations/gamelist/16-9/${glistCart}</path>
+            <iterationCount>1</iterationCount>
+            <zIndex>2</zIndex>
+        </animation>
+        <image name="imglines">
+            <visible>${imageUI}</visible>
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/${assetPath}/animations/gamelist/16-9/${glistCartImg}</path>
+            <zIndex>2</zIndex>
+        </image>
+        <text name="alpha-title">
+            <visible>${alphaTit}</visible>
+            <pos>.16 .04</pos>
+            <origin>1 0</origin>
+            <fontPath>${alpha}</fontPath>
+            <fontSize>.035</fontSize>
+            <text>alpha</text>
+            <horizontalAlignment>right</horizontalAlignment>
+            <color>${gmenu}</color>
+            <letterCase>lowercase</letterCase>
+            <zIndex>5</zIndex>
+        </text>
+        <image name="syslogo">
+            <pos>0.05 .12</pos>
+            <path>./assets/default-media/logos/${system.theme}.svg</path>
+            <maxSize>.2 .07</maxSize>
+            <color>${sysLogoAltColor}</color>
+            <zIndex>5</zIndex>
+        </image> 
+         <animation name="noise">
+            <visible>${noise}</visible>
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/${assetPath}/animations/noise.json</path>
+            <iterationCount>0</iterationCount>
+            <zIndex>6</zIndex>
+            <opacity>.6</opacity>
+        </animation>
+         <video name="glistNoise">
+            <visible>${glistNoise}</visible>
+            <audio>false</audio>
+            <fadeInType>transparent</fadeInType>
+            <pos>0.5 0</pos>
+            <cropSize>1 1</cropSize>
+            <origin>.5 0</origin>
+            <zIndex>10</zIndex>
+            <opacity>.1</opacity>
+            <path>./assets/${assetPath}/animations/noise.mp4</path>
+            <gradientType>vertical</gradientType>
+        </video>
+        <image name="macimg-background">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>${gameBKb}</path>
+            <zIndex>0</zIndex>
+        </image> 
+        <image name="bgfil">
+            <visible>${bgfil}</visible>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+            <path>./assets/${assetPath}/animations/bgfil.svg</path>
+            <zIndex>-1</zIndex>
+            <opacity>.6</opacity>
+        </image>
+        <clock name="sysclock">
+            <pos>.835 0</pos>
+            <scope>view</scope>
+            <origin>0 0 </origin>
+            <size>.25 .12</size>
+            <fontSize>.072</fontSize>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${gmenu}</color>
+            <fontPath>${clock}</fontPath>
+        </clock>
+        <systemstatus name="gstatus-ind">
+            <color>${gmenu}</color>
+            <pos>.16 .024</pos>
+            <entries>battery</entries>
+            <height>0.025</height>
+            <textRelativeScale>1</textRelativeScale>
+            <fontPath>${battlvl}</fontPath>
+            <customIcon icon="icon_battery_low">${icon_battery_low}</customIcon>
+            <customIcon icon="icon_battery_medium">${icon_battery_medium}</customIcon>
+            <customIcon icon="icon_battery_high">${icon_battery_high}</customIcon>
+            <customIcon icon="icon_battery_full">${icon_battery_full}</customIcon>
+            <customIcon icon="icon_battery_icon_battery_charging">${battery_charging}</customIcon>
+        </systemstatus>
+        <helpsystem name="help">
+            <pos>0.5 0.05 </pos>
+            <origin>.5 0 </origin>
+            <fontSize>.025</fontSize>
+            <fontPath>${helpFont}</fontPath>
+            <textColor>${gmenu}</textColor>
+            <iconColor>${gmenu}</iconColor>
+            <letterCase>lowercase</letterCase>
+            <entries>left/right, x, y, start, back, l, r, lt, rt</entries>
+             <customButtonIcon button="dpad_updown">./assets/icons/dpad_updown.svg</customButtonIcon>
+            <customButtonIcon button="dpad_leftright">./assets/icons/dpad_leftright.svg</customButtonIcon>
+            <customButtonIcon button="dpad_all">./assets/icons/dpad_all.svg</customButtonIcon>
+            <customButtonIcon button="thumbstick_click">./assets/icons/thumbstick_click.svg</customButtonIcon>
+            <customButtonIcon button="button_l">./assets/icons/button_l.svg</customButtonIcon>
+            <customButtonIcon button="button_r">./assets/icons/button_r.svg</customButtonIcon>
+            <customButtonIcon button="button_lr">./assets/icons/button_lr.svg</customButtonIcon>
+            <customButtonIcon button="button_lt">./assets/icons/button_lt.svg</customButtonIcon>
+            <customButtonIcon button="button_rt">./assets/icons/button_rt.svg</customButtonIcon>
+            <customButtonIcon button="button_ltrt">./assets/icons/button_ltrt.svg</customButtonIcon>
+            <customButtonIcon button="button_a_XBOX">./assets/icons/button_a_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_b_XBOX">./assets/icons/button_b_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_x_XBOX">./assets/icons/button_x_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_y_XBOX">./assets/icons/button_y_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_back_XBOX">./assets/icons/button_back_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_start_XBOX">./assets/icons/button_start_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_back_XBOX360">./assets/icons/button_back_XBOX360.svg</customButtonIcon>
+            <customButtonIcon button="button_start_XBOX360">./assets/icons/button_start_XBOX360.svg</customButtonIcon>
+            <customButtonIcon button="button_a_PS">./assets/icons/button_a_PS.svg</customButtonIcon>
+            <customButtonIcon button="button_b_PS">./assets/icons/button_b_PS.svg</customButtonIcon>
+            <customButtonIcon button="button_x_PS">./assets/icons/button_x_PS.svg</customButtonIcon>
+            <customButtonIcon button="button_y_PS">./assets/icons/button_y_PS.svg</customButtonIcon>
+            <customButtonIcon button="button_back_PS123">./assets/icons/button_back_PS123.svg</customButtonIcon>
+            <customButtonIcon button="button_start_PS123">./assets/icons/button_start_PS123.svg</customButtonIcon>
+            <customButtonIcon button="button_back_PS4">./assets/icons/button_back_PS4.svg</customButtonIcon>
+            <customButtonIcon button="button_start_PS4">./assets/icons/button_start_PS4.svg</customButtonIcon>
+            <customButtonIcon button="button_back_PS5">./assets/icons/button_back_PS5.svg</customButtonIcon>
+            <customButtonIcon button="button_start_PS5">./assets/icons/button_start_PS5.svg</customButtonIcon>
+            <customButtonIcon button="button_a_switch">./assets/icons/button_a_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_b_switch">./assets/icons/button_b_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_x_switch">./assets/icons/button_x_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_y_switch">./assets/icons/button_y_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_back_switch">./assets/icons/button_back_switch.svg</customButtonIcon>
+            <customButtonIcon button="button_start_switch">./assets/icons/button_start_switch.svg</customButtonIcon>
+            <customButtonIcon button="button_a_SNES">./assets/icons/button_a_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_b_SNES">./assets/icons/button_b_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_x_SNES">./assets/icons/button_x_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_y_SNES">./assets/icons/button_y_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_back_SNES">./assets/icons/button_back_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="button_start_SNES">./assets/icons/button_start_XBOX.svg</customButtonIcon>
+        </helpsystem>
+    </view>
+     <aspectRatio name="1:1">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                <pos>.71 .6</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text> 
+            <text name="playtime">    
+                    <pos>.71 .635</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text>
+            <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/1-1/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/1-1/${glistCartImg}</path>
+            </image>
+            <carousel name="games">
+                <pos>.5 .33</pos>	
+                <size>1 1</size>
+                <fontSize>.036</fontSize>
+                <itemSize>.2 .3</itemSize> 
+                <maxItemCount>3</maxItemCount>
+                <selectedItemMargins>.04 .04</selectedItemMargins>
+                <selectedItemOffset>0 -.11</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+                <lineSpacing>.9</lineSpacing>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 .27</pos>
+                <origin>.5 0</origin>
+                <size>.9 .22</size>
+                <fontSize>.08</fontSize>
+            </text>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>.04 .04</size>
+                <pos>0.045 0.54</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.043 0.59</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1 </origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.15 .04</pos>
+                <origin>1 0</origin>
+                <fontSize>.035</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.83 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="8:7">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                <pos>.69 .595</pos>
+                    <size>.15 .017</size>
+                    <fontSize>.022</fontSize>
+            </text> 
+            <text name="playtime">    
+                    <pos>.69 .625</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text>
+             <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/8-7/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/8-7/${glistCartImg}</path>
+            </image>
+            <carousel name="games">
+                <pos>.5 0.324</pos>
+                <size>1.01 1</size>
+                <maxItemCount>3</maxItemCount>
+                <selectedItemMargins>0.03 0.03</selectedItemMargins>
+                <selectedItemOffset>0 -0.10</selectedItemOffset>
+                <itemScale>1.8</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.274</pos>
+                <size>0.88 0.19</size>
+                <fontSize>0.084</fontSize>
+            </text>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>0.042 0.038</size>
+                <pos>0.045 0.52</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.042 0.574</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.14 .04</pos>
+                <origin>1 0</origin>
+            </text>
+            <clock name="sysclock">
+                <pos>.84 0</pos>
+                <fontSize>.069</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="4:3">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                <pos>.645 .545</pos>
+                    <size>.15 .017</size>
+                    <fontSize>.022</fontSize>
+            </text> 
+            <text name="playtime">    
+                    <pos>.645 .575</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text>
+           <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/4-3/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/4-3/${glistCartImg}</path>
+            </image>
+            <carousel name="games">
+                <pos>.5 0.29</pos>
+                <size>1.03 1</size>
+                <itemSize>.17 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <selectedItemOffset>0 -0.08</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.28</pos>
+                <size>0.84 0.14</size>
+                <fontSize>0.09</fontSize>
+            </text>
+            <gamelistinfo name="gcount">
+                <pos>0.05 .19</pos>
+                <size>.2 .07</size>
+                <color>${glist}</color>
+                <fontSize>.028</fontSize>
+            </gamelistinfo>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>0.046 0.034</size>
+                <pos>0.045 0.48</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.041 0.54</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:4">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                <pos>.675 .565</pos>
+                    <size>.15 .017</size>
+                    <fontSize>.022</fontSize>
+            </text> 
+            <text name="playtime">    
+                    <pos>.675 .595</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text>
+           <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/5-4/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/5-4/${glistCartImg}</path>
+            </image>
+            <carousel name="games">
+                <pos>.5 0.32</pos>
+                <size>1.02 1</size>
+                <maxItemCount>3</maxItemCount>
+                <selectedItemMargins>0.054 0.054</selectedItemMargins>
+                <selectedItemOffset>0 -0.09</selectedItemOffset>
+                <itemScale>1.88</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.276</pos>
+                <size>0.86 0.16</size>
+                <fontSize>0.086</fontSize>
+            </text>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>0.044 0.036</size>
+                <pos>0.045 0.50</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.041 0.56</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="3:2">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                <pos>.625 .515</pos>
+                    <size>.15 .017</size>
+                    <fontSize>.022</fontSize>
+            </text> 
+            <text name="playtime">    
+                    <pos>.625 .545</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text>
+           <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/3-2/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/3-2/${glistCartImg}</path>
+            </image>
+             <carousel name="games">
+                <pos>.5 0.29</pos>
+                <size>1.03 1</size>
+                <itemSize>.17 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <selectedItemOffset>0 -0.08</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.284</pos>
+                <size>0.9 0.11</size>
+                <fontSize>0.094</fontSize>
+            </text>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>0.05 0.032</size>
+                <pos>0.045 0.46</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.04 0.52</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="16:10">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                <pos>.62 .53</pos>
+                <size>.15 .018</size>
+                <fontSize>.022</fontSize>
+        </text> 
+        <text name="playtime">    
+                <pos>.71 .53</pos>
+                <size>.15 .018</size>
+                <fontSize>.022</fontSize>
+        </text>
+           <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/16-10/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/16-10/${glistCartImg}</path>
+            </image>
+            <carousel name="games">
+                <pos>.5 0.28</pos>
+                <size>1.06 1</size>
+                <itemSize>.18 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.075 0.075</selectedItemMargins>
+                <selectedItemOffset>0 -0.06</selectedItemOffset>
+                <itemScale>2</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.288</pos>
+                <size>0.81 0.08</size>
+                <fontSize>0.098</fontSize>
+            </text>
+            <rating name="gamerating">
+                <pos>0.045 0.45</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.04 0.51</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="19.5:9">
+            <view name="gamelist">
+                <text name="playtimeLBL">    
+                    <pos>.59 .53</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text> 
+            <text name="playtime">    
+                    <pos>.66 .53</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text>
+            <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/195-9/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/195-9/${glistCartImg}</path>
+            </image>
+            <text name="game-title">
+                <size>0.91 0.08</size>
+            </text>
+            <carousel name="games">
+                <pos>.5 0.29</pos>
+                <size>1.03 1</size>
+                <itemSize>.19 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <selectedItemOffset>0 -0.04</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <clock name="sysclock">
+                <pos>.9 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="20:9">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                    <pos>.59 .53</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text> 
+            <text name="playtime">    
+                    <pos>.66 .53</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text>
+            <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/20-9/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/20-9/${glistCartImg}</path>
+            </image>
+            <text name="game-title">
+                <size>0.91 0.08</size>
+            </text>
+            <carousel name="games">
+                <pos>.5 0.31</pos>
+                <size>1.03 1</size>
+                <itemSize>.19 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <selectedItemOffset>0 -0.04</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <badges name="gbadges">
+                <pos>0.041 0.53 </pos>
+                <size>.22 .1</size>
+            </badges>
+            <clock name="sysclock">
+                <pos>.905 -.01</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                    <pos>.59 .53</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text> 
+            <text name="playtime">    
+                    <pos>.655 .53</pos>
+                    <size>.15 .018</size>
+                    <fontSize>.022</fontSize>
+            </text>
+            <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/21-9/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/21-9/${glistCartImg}</path>
+            </image>
+            <text name="game-title">
+                <size>0.91 0.08</size>
+            </text>
+            <carousel name="games">
+                <pos>.5 0.27</pos>
+                <size>1.03 1</size>
+                <itemSize>.21 .26</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.05 0.05</selectedItemMargins>
+                <selectedItemOffset>0 -0.06</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <badges name="gbadges">
+                <pos>0.0405 0.525 </pos>
+                <size>.22 .1</size>
+            </badges>
+            <clock name="sysclock">
+                <pos>.9 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+        <view name="gamelist">
+            <text name="playtimeLBL">    
+                    <visible>false</visible>
+            </text> 
+            <text name="playtime">    
+                    <visible>false</visible>
+            </text> 
+            </text>
+            <carousel name="games">
+                <pos>.5 .26</pos>	
+                <itemSize>.21 .22</itemSize> 
+                <itemScale>2.5</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <maxItemCount>3</maxItemCount>
+                <selectedItemMargins>.04 .04</selectedItemMargins>
+                <selectedItemOffset>0 -0.07</selectedItemOffset>                
+                <unfocusedItemOpacity>.5</unfocusedItemOpacity>
+            </carousel>
+            <image name="syslogo">
+                <pos>0.5 .12</pos>
+                <origin>.5 0</origin>
+            </image>
+            <animation name="lines">
+                <path>./assets/${assetPath}/animations/gamelist/5-3/${glistCart}</path>
+            </animation>
+            <image name="imglines">
+                <path>./assets/${assetPath}/animations/gamelist/5-3/${glistCartImg}</path>
+            </image>
+            <text name="game-title">
+                <pos>.5 .19</pos>
+                <origin>.5 0</origin>
+                <size>.85 .3</size>
+                <fontSize>.1</fontSize>
+                <verticalAlignment>center</verticalAlignment>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>5</zIndex>
+            </text>
+            <rating name="gamerating">
+                <pos>0.5 0.934</pos>
+                <origin>.5 0</origin>
+                <size> .047 .03 </size>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.5 0.5</pos>
+                <origin>.5 0</origin>
+                <size>.67 .2</size>
+                <horizontalAlignment>center</horizontalAlignment>
+            </badges>
+            <gamelistinfo name="gcount">
+                <pos>0.5 .15</pos>
+                <size>.35 .1</size>
+                <origin>.5 0</origin>
+                <fontSize>.035</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+            </gamelistinfo>
+            <clock name="sysclock">
+                <pos>.65 -0.02</pos>
+                <horizontalAlignment>right</horizontalAlignment> 
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.24 .015</pos>
+                <height>0.035</height>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.21 .037</pos>
+            </text>
+            <helpsystem name="help">
+                <pos>0.5 0.085 </pos>
+                <origin>.5 0 </origin>
+                <fontSize>.031</fontSize>
+            </helpsystem>
+        </view>
+    </aspectRatio>    
+</theme>

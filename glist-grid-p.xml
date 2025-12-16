@@ -466,17 +466,17 @@
     </aspectRatio>
     <aspectRatio name="4:3">
         <view name="gamelist">
-            <animation name="lines">
-                <text name="playtimeLBL">    
+            <text name="playtimeLBL">    
                         <pos>.59 .97</pos>
                         <size>.15 .018</size>
                         <fontSize>.022</fontSize>
-                </text> 
+            </text> 
             <text name="playtime">    
                     <pos>.7 .97</pos>
                     <size>.15 .018</size>
                     <fontSize>.022</fontSize>
             </text> 
+            <animation name="lines">
                 <path>./assets/${assetPath}/animations/gamelist/4-3/${glistGrid}</path>
             </animation>
             <image name="imglines">

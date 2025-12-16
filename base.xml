@@ -103,6 +103,7 @@
              <folderICNcolor>${white}</folderICNcolor>
              <folderPOS>.55 .57 </folderPOS>
             <folderSize>.25</folderSize>
+            <cartColor>292521</cartColor>
 
         <!-- SOUNDS ===================================================================-->
 
@@ -182,6 +183,43 @@
             <icon_battery_high>./assets/theme-mac/icons/bat-high.svg</icon_battery_high>
             <icon_battery_full>./assets/theme-mac/icons/bat-full.svg</icon_battery_full>
             <battery_charging>./assets/theme-mac/icons/bat-charg.svg</battery_charging>
+
+            <!-- responsive sizes ===================================================================-->
+            <gamevidP-1-1>0.52 0.52</gamevidP-1-1>
+            <gamevidP-8-7>0.52 0.52</gamevidP-8-7>
+            <gamevidP-5-4>0.52 0.52</gamevidP-5-4>
+            <gamevidP-4-3>0.51 0.52</gamevidP-4-3>
+            <gamevidP-3-2>0.51 0.52</gamevidP-3-2>
+            <gamevidP-16-10>0.5 0.52</gamevidP-16-10>
+            <gamevidP-16-9>0.5 0.52</gamevidP-16-9>
+            <gamevidP-195-9>0.5 0.52</gamevidP-195-9>
+            <gamevidP-20-9>0.5 0.52</gamevidP-20-9>
+            <gamevidP-21-9>0.5 0.52</gamevidP-21-9>
+            <gamevidP-5-3v>0.52 0.52</gamevidP-5-3v>
+
+            <gamevidS-1-1>.28 .26</gamevidS-1-1>
+            <gamevidS-8-7>.28 .26</gamevidS-8-7>
+            <gamevidS-5-4>.28 .26</gamevidS-5-4>
+            <gamevidS-4-3>.27 .26</gamevidS-4-3>
+            <gamevidS-3-2>.24 .26</gamevidS-3-2>
+            <gamevidS-16-10>.19 .26</gamevidS-16-10>
+            <gamevidS-16-9>.19 .26</gamevidS-16-9>
+            <gamevidS-195-9>.19 .29</gamevidS-195-9>
+            <gamevidS-20-9>.19 .29</gamevidS-20-9>
+            <gamevidS-21-9>.19 .31</gamevidS-21-9>
+            <gamevidS-5-3v>.5 .26</gamevidS-5-3v>
+
+            <cart-1-1>0.82 0.66</cart-1-1>
+            <cart-8-7>0.78 0.66</cart-8-7>
+            <cart-5-4>0.76 0.66</cart-5-4>
+            <cart-4-3>0.74 0.66</cart-4-3>
+            <cart-3-2>0.715 0.66</cart-3-2>
+            <cart-16-10>0.7 0.65</cart-16-10>
+            <cart-16-9>0.6823 0.65</cart-16-9>
+            <cart-195-9>0.6823 0.69</cart-195-9>
+            <cart-20-9>0.6823 0.69</cart-20-9>
+            <cart-21-9>0.68 0.7</cart-21-9>
+            <cart-5-3v>0.5 0.83</cart-5-3v>
         </variables>
     </colorScheme>
     <colorScheme name="maclp">
@@ -264,6 +302,7 @@
             <folderICNcolor>${white}</folderICNcolor>
             <folderPOS>.55 .57 </folderPOS>
             <folderSize>.25</folderSize>
+            <cartColor>292521</cartColor>
 
         <!-- SOUNDS ===================================================================-->
 
@@ -339,6 +378,43 @@
             <icon_battery_high>./assets/theme-mac/icons/bat-high.svg</icon_battery_high>
             <icon_battery_full>./assets/theme-mac/icons/bat-full.svg</icon_battery_full>
             <battery_charging>./assets/theme-mac/icons/bat-charg.svg</battery_charging>
+
+            <!-- responsive sizes ===================================================================-->
+            <gamevidP-1-1>0.52 0.52</gamevidP-1-1>
+            <gamevidP-8-7>0.52 0.52</gamevidP-8-7>
+            <gamevidP-5-4>0.52 0.52</gamevidP-5-4>
+            <gamevidP-4-3>0.51 0.52</gamevidP-4-3>
+            <gamevidP-3-2>0.51 0.52</gamevidP-3-2>
+            <gamevidP-16-10>0.5 0.52</gamevidP-16-10>
+            <gamevidP-16-9>0.5 0.52</gamevidP-16-9>
+            <gamevidP-195-9>0.5 0.52</gamevidP-195-9>
+            <gamevidP-20-9>0.5 0.52</gamevidP-20-9>
+            <gamevidP-21-9>0.5 0.52</gamevidP-21-9>
+            <gamevidP-5-3v>0.52 0.52</gamevidP-5-3v>
+
+            <gamevidS-1-1>.28 .26</gamevidS-1-1>
+            <gamevidS-8-7>.28 .26</gamevidS-8-7>
+            <gamevidS-5-4>.28 .26</gamevidS-5-4>
+            <gamevidS-4-3>.27 .26</gamevidS-4-3>
+            <gamevidS-3-2>.24 .26</gamevidS-3-2>
+            <gamevidS-16-10>.19 .26</gamevidS-16-10>
+            <gamevidS-16-9>.19 .26</gamevidS-16-9>
+            <gamevidS-195-9>.19 .29</gamevidS-195-9>
+            <gamevidS-20-9>.19 .29</gamevidS-20-9>
+            <gamevidS-21-9>.19 .31</gamevidS-21-9>
+            <gamevidS-5-3v>.5 .26</gamevidS-5-3v>
+
+            <cart-1-1>0.82 0.66</cart-1-1>
+            <cart-8-7>0.78 0.66</cart-8-7>
+            <cart-5-4>0.76 0.66</cart-5-4>
+            <cart-4-3>0.74 0.66</cart-4-3>
+            <cart-3-2>0.715 0.66</cart-3-2>
+            <cart-16-10>0.7 0.65</cart-16-10>
+            <cart-16-9>0.6823 0.65</cart-16-9>
+            <cart-195-9>0.6823 0.69</cart-195-9>
+            <cart-20-9>0.6823 0.69</cart-20-9>
+            <cart-21-9>0.68 0.7</cart-21-9>
+            <cart-5-3v>0.5 0.83</cart-5-3v>
         </variables>
     </colorScheme>
     <colorScheme name="clean">
@@ -362,11 +438,11 @@
             <glistPlain>gamelist-plain.json</glistPlain>
             <glistPlainImg>gamelist-plain.webp</glistPlainImg>
 
-            <glistGrid>gamelist-plain.json</glistGrid>
-            <glistGridImg>gamelist-plain.webp</glistGridImg>
+            <glistGrid>gamelist-grid.json</glistGrid>
+            <glistGridImg>gamelist-grid.webp</glistGridImg>
 
-            <glistCart>gamelist-plain.json</glistCart>
-            <glistCartImg>gamelist-plain.webp</glistCartImg>
+            <glistCart>gamelist-cart.json</glistCart>
+            <glistCartImg>gamelist-cart.webp</glistCartImg>
 
         <!-- THEME TOGGLES ===================================================================-->
             
@@ -389,7 +465,7 @@
             <glistNoise>false</glistNoise>
             <sysNoise>false</sysNoise>
             <noiseItCount>1</noiseItCount>
-            <sNOpacity>.2</sNOpacity>
+            <sNOpacity>.1</sNOpacity>
             <iterationDone>none</iterationDone>
 
             <!-- sys view image/video frame -->
@@ -422,6 +498,7 @@
             <folderICNcolor>${white}</folderICNcolor>
             <folderPOS>.5 .55 </folderPOS>
             <folderSize>.35</folderSize>
+            <cartColor>90a6e4</cartColor>
 
         <!-- SOUNDS ===================================================================-->
 
@@ -496,6 +573,43 @@
             <icon_battery_high>./assets/theme-clean/icons/bat-high.svg</icon_battery_high>
             <icon_battery_full>./assets/theme-clean/icons/bat-full.svg</icon_battery_full>
             <battery_charging>./assets/theme-clean/icons/bat-charg.svg</battery_charging>
+
+            <!-- responsive sizes ===================================================================-->
+            <gamevidP-1-1>0.495 0.517</gamevidP-1-1>
+            <gamevidP-8-7>0.495 0.518</gamevidP-8-7>
+            <gamevidP-5-4>0.497 0.518</gamevidP-5-4>
+            <gamevidP-4-3>0.497 0.519</gamevidP-4-3>
+            <gamevidP-3-2>0.497 0.519</gamevidP-3-2>
+            <gamevidP-16-10>0.497 0.519</gamevidP-16-10>
+            <gamevidP-16-9>0.498 0.519</gamevidP-16-9>
+            <gamevidP-195-9>0.498 0.524</gamevidP-195-9>
+            <gamevidP-20-9>0.498 0.524</gamevidP-20-9>
+            <gamevidP-21-9>0.498 0.524</gamevidP-21-9>
+            <gamevidP-5-3v>0.492 0.522</gamevidP-5-3v>
+
+            <gamevidS-1-1>.5 .284</gamevidS-1-1>
+            <gamevidS-8-7>.44 .284</gamevidS-8-7>
+            <gamevidS-5-4>.4 .284</gamevidS-5-4>
+            <gamevidS-4-3>.377 .284</gamevidS-4-3>
+            <gamevidS-3-2>.335 .284</gamevidS-3-2>
+            <gamevidS-16-10>.314 .284</gamevidS-16-10>
+            <gamevidS-16-9>.283 .284</gamevidS-16-9>
+            <gamevidS-195-9>.283 .347</gamevidS-195-9>
+            <gamevidS-20-9>.283 .347</gamevidS-20-9>
+            <gamevidS-21-9>.283 .377</gamevidS-21-9>
+            <gamevidS-5-3v>.837 .284</gamevidS-5-3v>
+
+            <cart-1-1>0.845 0.62</cart-1-1>
+            <cart-8-7>0.8 0.625</cart-8-7>
+            <cart-5-4>0.775 0.625</cart-5-4>
+            <cart-4-3>0.758 0.625</cart-4-3>
+            <cart-3-2>0.729 0.625</cart-3-2>
+            <cart-16-10>0.715 0.625</cart-16-10>
+            <cart-16-9>0.693 0.625</cart-16-9>
+            <cart-195-9>0.693 0.65</cart-195-9>
+            <cart-20-9>0.693 0.65</cart-20-9>
+            <cart-21-9>0.693 0.65</cart-21-9>
+            <cart-5-3v>0.5 0.83</cart-5-3v>
         </variables>
     </colorScheme>
     <colorScheme name="cleanLP">
@@ -519,11 +633,11 @@
             <glistPlain>gamelist-plain.json</glistPlain>
             <glistPlainImg>gamelist-plain.webp</glistPlainImg>
 
-            <glistGrid>gamelist-plain.json</glistGrid>
-            <glistGridImg>gamelist-plain.webp</glistGridImg>
+            <glistGrid>gamelist-grid.json</glistGrid>
+            <glistGridImg>gamelist-gird.webp</glistGridImg>
 
-            <glistCart>gamelist-plain.json</glistCart>
-            <glistCartImg>gamelist-plain.webp</glistCartImg>
+            <glistCart>gamelist-cart.json</glistCart>
+            <glistCartImg>gamelist-cart.webp</glistCartImg>
 
         <!-- THEME TOGGLES ===================================================================-->
             
@@ -579,6 +693,7 @@
             <folderICNcolor>${white}</folderICNcolor>
             <folderPOS>.5 .55 </folderPOS>
             <folderSize>.35</folderSize>
+            <cartColor>90a6e4</cartColor>
 
         <!-- SOUNDS ===================================================================-->
 
@@ -622,10 +737,10 @@
             <gcount>./assets/theme-clean/type/clean-ExtraLight.ttf</gcount>
             <gcountColor>${white}</gcountColor>
 
-            <cCollectionSys>./../theme-clean/type/clean-Black.ttf</cCollectionSys>
+            <cCollectionSys>./../assets/theme-clean/type/clean-Black.ttf</cCollectionSys>
             <cCollectionColor>${white}</cCollectionColor>
 
-            <playtimeFont>./theme-clean/type/clean-Black.ttf</playtimeFont>
+            <playtimeFont>./assets/theme-clean/type/clean-Black.ttf</playtimeFont>
             <playtimeColor>${white}</playtimeColor>
             
 
@@ -653,6 +768,43 @@
             <icon_battery_high>./assets/theme-clean/icons/bat-high.svg</icon_battery_high>
             <icon_battery_full>./assets/theme-clean/icons/bat-full.svg</icon_battery_full>
             <battery_charging>./assets/theme-clean/icons/bat-charg.svg</battery_charging>
+
+            <!-- responsive sizes ===================================================================-->
+            <gamevidP-1-1>0.495 0.517</gamevidP-1-1>
+            <gamevidP-8-7>0.495 0.518</gamevidP-8-7>
+            <gamevidP-5-4>0.497 0.518</gamevidP-5-4>
+            <gamevidP-4-3>0.497 0.519</gamevidP-4-3>
+            <gamevidP-3-2>0.497 0.519</gamevidP-3-2>
+            <gamevidP-16-10>0.497 0.519</gamevidP-16-10>
+            <gamevidP-16-9>0.498 0.519</gamevidP-16-9>
+            <gamevidP-195-9>0.498 0.524</gamevidP-195-9>
+            <gamevidP-20-9>0.498 0.524</gamevidP-20-9>
+            <gamevidP-21-9>0.498 0.524</gamevidP-21-9>
+            <gamevidP-5-3v>0.492 0.519</gamevidP-5-3v>
+
+            <gamevidS-1-1>.5 .284</gamevidS-1-1>
+            <gamevidS-8-7>.44 .284</gamevidS-8-7>
+            <gamevidS-5-4>.4 .284</gamevidS-5-4>
+            <gamevidS-4-3>.377 .284</gamevidS-4-3>
+            <gamevidS-3-2>.335 .284</gamevidS-3-2>
+            <gamevidS-16-10>.314 .284</gamevidS-16-10>
+            <gamevidS-16-9>.283 .284</gamevidS-16-9>
+            <gamevidS-195-9>.283 .347</gamevidS-195-9>
+            <gamevidS-20-9>.283 .347</gamevidS-20-9>
+            <gamevidS-21-9>.283 .347</gamevidS-21-9>
+            <gamevidS-5-3v>.837 .284</gamevidS-5-3v>
+
+            <cart-1-1>0.845 0.62</cart-1-1>
+            <cart-8-7>0.8 0.625</cart-8-7>
+            <cart-5-4>0.775 0.625</cart-5-4>
+            <cart-4-3>0.758 0.625</cart-4-3>
+            <cart-3-2>0.729 0.625</cart-3-2>
+            <cart-16-10>0.715 0.625</cart-16-10>
+            <cart-16-9>0.693 0.625</cart-16-9>
+            <cart-195-9>0.693 0.65</cart-195-9>
+            <cart-20-9>0.693 0.65</cart-20-9>
+            <cart-21-9>0.693 0.65</cart-21-9>
+            <cart-5-3v>0.5 0.83</cart-5-3v>
         </variables>
     </colorScheme>
 </theme>

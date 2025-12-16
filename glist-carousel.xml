@@ -795,7 +795,6 @@
             <text name="playtime">    
                     <visible>false</visible>
             </text> 
-            </text>
             <carousel name="games">
                 <pos>.5 .26</pos>	
                 <itemSize>.21 .22</itemSize> 

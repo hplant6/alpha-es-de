@@ -28,9 +28,8 @@
                 <zIndex>5</zIndex>
         </carousel>
         <video name="gamevid">
-            <rotation>-11</rotation>
-            <pos>0.46 0.59</pos>  
-            <cropSize>.26 .36</cropSize>
+            <pos>${gamevidP-16-9}</pos>  
+            <cropSize>${gamevidS-16-9}</cropSize>
             <origin>.5 .5 </origin>
             <zIndex>3</zIndex>
             <path>./assets/default-media/videos/${system.theme}.mp4</path>
@@ -41,11 +40,12 @@
             <origin>.5 0</origin>
             <cropSize>1 1</cropSize>
             <opacity>1</opacity>
-            <path>./assets/${assetPath}/frames/system/16-9/tvfg.webp</path>
+            <path>./assets/${assetPath}/animations/tv-overlay.webp</path>
             <zIndex>4</zIndex>
         </image>
         <video name="tvbg">
             <fadeInType>transparent</fadeInType>
+            <fadeInTime>.02</fadeInTime>
             <pos>0.5 0</pos>
             <cropSize>1 1</cropSize>
             <origin>.5 0</origin>
@@ -61,11 +61,12 @@
             <zIndex>0</zIndex>
         </image>
         <image name="cartridge">
-            <pos>0.11 0.9 </pos>
+            <pos>${cart-16-9}</pos>
+            <color>${cartColor}</color>
             <origin>.5 .5 </origin>
-            <maxSize>.374 .374</maxSize>
+            <maxSize>.12 .12</maxSize>
             <path>./assets/default-media/physical-media/${system.theme}.webp</path>
-            <zIndex>7</zIndex>
+            <zIndex>3</zIndex>
         </image>
 
         <animation name="animated-UI">
@@ -108,6 +109,7 @@
             <visible>${sysNoise}</visible>
             <audio>false</audio>
             <fadeInType>transparent</fadeInType>
+            <fadeInTime>0</fadeInTime>
             <pos>0.5 0</pos>
             <cropSize>1 1</cropSize>
             <origin>.5 0</origin>
@@ -216,13 +218,13 @@
                 <itemScale>3</itemScale>
             </carousel>
             <video name="gamevid">
-                <pos>0.42 0.6</pos>
-                <cropSize>0.45 0.36</cropSize>
+                <pos>${gamevidP-1-1}</pos>  
+                <cropSize>${gamevidS-1-1}</cropSize>
                 <origin>.5 .5 </origin>
             </video>
             <image name="cartridge">
-                <pos>0.05 0.9 </pos>
-                <maxSize>.25 .25</maxSize>
+                <pos>${cart-1-1}</pos>
+                <maxSize>.12 .12</maxSize>
             </image>
             <text name="sys-title">
                 <pos>.5 0.09</pos>
@@ -253,13 +255,14 @@
                 <size>.75 .3</size>
                 <fontSize>.09</fontSize>
             </text>
-             <video name="gamevid">
-                <pos>0.44 0.6</pos>
-                <cropSize>0.4 0.36</cropSize>
+            <video name="gamevid">
+                <pos>${gamevidP-8-7}</pos>  
+                <cropSize>${gamevidS-8-7}</cropSize>
+                <origin>.5 .5 </origin>
             </video>
             <image name="cartridge">
-                <pos>0.115 0.9 </pos>
-                <maxSize>.25 .25</maxSize>
+                <pos>${cart-8-7}</pos>
+                <maxSize>.12 .12</maxSize>
             </image>
             <clock name="sysclock">
                 <pos>.84 0</pos>
@@ -281,13 +284,14 @@
              <carousel name="main">
                 <fontSize>.029</fontSize>
             </carousel>
-             <video name="gamevid">
-                <pos>0.45 0.59</pos>
-                <cropSize>0.35 0.36</cropSize>
+            <video name="gamevid">
+                <pos>${gamevidP-4-3}</pos>  
+                <cropSize>${gamevidS-4-3}</cropSize>
+                <origin>.5 .5 </origin>
             </video>
             <image name="cartridge">
-                <pos>0.115 0.9 </pos>
-                <maxSize>.25 .25</maxSize>
+                <pos>${cart-4-3}</pos>
+                <maxSize>.12 .12</maxSize>
             </image>
             <text name="sys-title">
                 <fontSize>.09</fontSize>
@@ -312,17 +316,18 @@
             <carousel name="main">
                 <fontSize>.029</fontSize>
             </carousel>
+            <video name="gamevid">
+                <pos>${gamevidP-5-4}</pos>  
+                <cropSize>${gamevidS-5-4}</cropSize>
+                <origin>.5 .5 </origin>
+            </video>
             <image name="cartridge">
-                <pos>0.115 0.9 </pos>
-                <maxSize>.25 .25</maxSize>
+                <pos>${cart-5-4}</pos>
+                <maxSize>.12 .12</maxSize>
             </image>
             <text name="sys-title">
                 <fontSize>.09</fontSize>
             </text>
-            <video name="gamevid">
-                <pos>0.44 0.6</pos>
-                <cropSize>0.37 0.36</cropSize>
-            </video>
             <clock name="sysclock">
                 <pos>.87 0</pos>
                 <fontSize>.06</fontSize>
@@ -348,13 +353,15 @@
             <text name="sys-title">
                 <fontSize>.09</fontSize>
             </text>
-            <image name="cartridge">
-                <pos>0.135 0.9 </pos>
-            </image>
-             <video name="gamevid">
-                <pos>0.45 0.6</pos>
-                <cropSize>0.3 0.36</cropSize>
+            <video name="gamevid">
+                <pos>${gamevidP-3-2}</pos>  
+                <cropSize>${gamevidS-3-2}</cropSize>
+                <origin>.5 .5 </origin>
             </video>
+            <image name="cartridge">
+                <pos>${cart-3-2}</pos>
+                <maxSize>.12 .12</maxSize>
+            </image>
             <clock name="sysclock">
                 <pos>.88 0</pos>
                 <fontSize>.06</fontSize>
@@ -367,11 +374,11 @@
     <aspectRatio name="16:10">
          <view name="system">
             <video name="gamevid">
-                <pos>0.46 0.6</pos>  
-                <cropSize>.29 .36</cropSize>
+                <pos>${gamevidP-16-10}</pos>  
+                <cropSize>${gamevidS-16-10}</cropSize>
             </video>
             <image name="cartridge">
-                <pos>0.135 0.9 </pos>
+                <pos>${cart-16-10}</pos>
             </image>
         </view>
     </aspectRatio>
@@ -384,13 +391,18 @@
                 <path>./assets/${assetPath}/animations/20-9/${sysSsaverImg}</path>
             </image>
             <video name="gamevid">
-                <pos>0.465 0.62</pos>  
-                <cropSize>.26 .435</cropSize>
+                <pos>${gamevidP-195-9}</pos>  
+                <cropSize>${gamevidS-195-9}</cropSize>
             </video>
+            <image name="cartridge">
+                <pos>${cart-195-9}</pos>
+                <maxSize>.12 .12</maxSize>
+            </image>    
             <clock name="sysclock">
                 <pos>.77 0</pos>
                 <fontSize>.06</fontSize>
             </clock>
+            
             <systemstatus name="status-ind">
                 <pos>.23 .024</pos>
             </systemstatus>
@@ -405,9 +417,13 @@
                 <path>./assets/${assetPath}/animations/20-9/${sysSsaverImg}</path>
             </image>
             <video name="gamevid">
-                <pos>0.465 0.62</pos>  
-                <cropSize>.26 .435</cropSize>
+                <pos>${gamevidP-20-9}</pos>  
+                <cropSize>${gamevidS-20-9}</cropSize>
             </video>
+            <image name="cartridge">
+                <pos>${cart-20-9}</pos>
+                <maxSize>.12 .12</maxSize>
+            </image> 
             <clock name="sysclock">
                 <pos>.77 0</pos>
                 <fontSize>.06</fontSize>
@@ -431,9 +447,13 @@
                 <selectedItemMargins>0.04 0.04</selectedItemMargins>          
             </carousel>
             <video name="gamevid">
-                <pos>0.46 0.61</pos>  
-                <cropSize>.26 .51</cropSize>
+                <pos>${gamevidP-21-9}</pos>  
+                <cropSize>${gamevidS-21-9}</cropSize>
             </video>
+            <image name="cartridge">
+                <pos>${cart-21-9}</pos>
+                <maxSize>.12 .12</maxSize>
+            </image> 
             <clock name="sysclock">
                 <pos>.77 0</pos>
                 <fontSize>.06</fontSize>
@@ -446,7 +466,7 @@
      <aspectRatio name="5:3_vertical">
         <view name="system">
             <carousel name="main">
-                <pos>.5 .11</pos>	
+                <pos>.5 .01</pos>	
                 <itemSize>.21 .21</itemSize> 
                 <itemScale>2.5</itemScale>
                 <lineSpacing>.9</lineSpacing>
@@ -461,11 +481,12 @@
                 <path>./assets/${assetPath}/animations/5-3/${sysSsaverImg}</path>
             </image>
             <video name="gamevid">
-                <pos>0.37 0.59</pos>  
-                <cropSize>.75 .39</cropSize>
+                <pos>${gamevidP-5-3v}</pos>  
+                <cropSize>${gamevidS-5-3v}</cropSize>
             </video>
             <image name="cartridge">
-                <pos>0.5 0.82 </pos>
+                <pos>${cart-5-3v}</pos>
+                <color>ffffff</color>
                 <maxSize>.374 .374</maxSize>
             </image>
             <text name="sys-title">

@@ -92,7 +92,7 @@
     <!-- complete -->
     <variant name="images-grid-video">
         <include>./../sys-images.xml</include>
-        <include>./../sys-video.xml</include>
+        <include>./../glist-grid-v.xml</include>
         <include>./custom.xml</include>
     </variant>
     <!-- complete -->
@@ -109,7 +109,7 @@
     </variant>
     <variant name="cartridges-videos">
         <include>./../sys-cart.xml</include>
-        <include>./../sys-video.xml</include>
+        <include>./../glist-video.xml</include>
         <include>./custom.xml</include>
     </variant>
     <variant name="cartridges-plain">
@@ -129,7 +129,7 @@
     </variant>
     <variant name="cartridges-grid-video">
         <include>./../sys-cart.xml</include>
-        <include>./../sys-video.xml</include>
+        <include>./../glist-grid-v.xml</include>
         <include>./custom.xml</include>
     </variant>
     <variant name="cartridges-grid-plain">
@@ -145,7 +145,7 @@
   
     <variant name="sSaver-videos">
         <include>./../sys-ssaver.xml</include>
-        <include>./../sys-video.xml</include>
+        <include>./../glist-video.xml</include>
         <include>./custom.xml</include>
     </variant>
     <variant name="sSaver-plain">
@@ -165,7 +165,7 @@
     </variant>
     <variant name="sSaver-grid-video">
         <include>./../sys-ssaver.xml</include>
-        <include>./../sys-video.xml</include>
+        <include>./../glist-grid-v.xml</include>
         <include>./custom.xml</include>
     </variant>
     <variant name="sSaver-grid-plain">

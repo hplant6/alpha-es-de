@@ -28,6 +28,48 @@
         <!-- ASSET PATH ===================================================================-->
             <assetPath>theme-mac</assetPath>
 
+        <!-- HELP ICONS ===================================================================-->
+            <dpad_updown>./assets/theme-mac/icons/help-icons/dpad_updown.svg</dpad_updown>
+            <dpad_leftright>./assets/theme-mac/icons/help-icons/dpad_leftright.svg</dpad_leftright>
+            <dpad_all>./assets/theme-mac/icons/help-icons/dpad_all.svg</dpad_all>
+            <thumbstick_click>./assets/theme-mac/icons/help-icons/thumbstick_click.svg</thumbstick_click>
+            <button_l>./assets/theme-mac/icons/help-icons/button_l.svg</button_l>
+            <button_r>./assets/theme-mac/icons/help-icons/button_r.svg</button_r>
+            <button_lr>./assets/theme-mac/icons/help-icons/button_lr.svg</button_lr>
+            <button_lt>./assets/theme-mac/icons/help-icons/button_lt.svg</button_lt>
+            <button_rt>./assets/theme-mac/icons/help-icons/button_rt.svg</button_rt>
+            <button_ltrt>./assets/theme-mac/icons/help-icons/button_ltrt.svg</button_ltrt>
+            <button_a_XBOX>./assets/theme-mac/icons/help-icons/button_a_XBOX.svg</button_a_XBOX>
+            <button_b_XBOX>./assets/theme-mac/icons/help-icons/button_b_XBOX.svg</button_b_XBOX>
+            <button_x_XBOX>./assets/theme-mac/icons/help-icons/button_x_XBOX.svg</button_x_XBOX>
+            <button_y_XBOX>./assets/theme-mac/icons/help-icons/button_y_XBOX.svg</button_y_XBOX>
+            <button_back_XBOX>./assets/theme-mac/icons/help-icons/button_back_XBOX.svg</button_back_XBOX>
+            <button_start_XBOX>./assets/theme-mac/icons/help-icons/button_start_XBOX.svg</button_start_XBOX>
+            <button_back_XBOX360>./assets/theme-mac/icons/help-icons/button_back_XBOX360.svg</button_back_XBOX360>
+            <button_start_XBOX360>./assets/theme-mac/icons/help-icons/button_start_XBOX360.svg</button_start_XBOX360>
+            <button_a_PS>./assets/theme-mac/icons/help-icons/button_a_PS.svg</button_a_PS>
+            <button_b_PS>./assets/theme-mac/icons/help-icons/button_b_PS.svg</button_b_PS>
+            <button_x_PS>./assets/theme-mac/icons/help-icons/button_x_PS.svg</button_x_PS>
+            <button_y_PS>./assets/theme-mac/icons/help-icons/button_y_PS.svg</button_y_PS>
+            <button_back_PS123>./assets/theme-mac/icons/help-icons/button_back_PS123.svg</button_back_PS123>
+            <button_start_PS123>./assets/theme-mac/icons/help-icons/button_start_PS123.svg</button_start_PS123>
+            <button_back_PS4>./assets/theme-mac/icons/help-icons/button_back_PS4.svg</button_back_PS4>
+            <button_start_PS4>./assets/theme-mac/icons/help-icons/button_start_PS4.svg</button_start_PS4>
+            <button_back_PS5>./assets/theme-mac/icons/help-icons/button_back_PS5.svg</button_back_PS5>
+            <button_start_PS5>./assets/theme-mac/icons/help-icons/button_start_PS5.svg</button_start_PS5>
+            <button_a_switch>./assets/theme-mac/icons/help-icons/button_a_XBOX.svg</button_a_switch>
+            <button_b_switch>./assets/theme-mac/icons/help-icons/button_b_XBOX.svg</button_b_switch>
+            <button_x_switch>./assets/theme-mac/icons/help-icons/button_x_XBOX.svg</button_x_switch>
+            <button_y_switch>./assets/theme-mac/icons/help-icons/button_y_XBOX.svg</button_y_switch>
+            <button_back_switch>./assets/theme-mac/icons/help-icons/button_back_switch.svg</button_back_switch>
+            <button_start_switch>./assets/theme-mac/icons/help-icons/button_start_switch.svg</button_start_switch>
+            <button_a_SNES>./assets/theme-mac/icons/help-icons/button_a_XBOX.svg</button_a_SNES>
+            <button_b_SNES>./assets/theme-mac/icons/help-icons/button_b_XBOX.svg</button_b_SNES>
+            <button_x_SNES>./assets/theme-mac/icons/help-icons/button_x_XBOX.svg</button_x_SNES>
+            <button_y_SNES>./assets/theme-mac/icons/help-icons/button_y_XBOX.svg</button_y_SNES>
+            <button_back_SNES>./assets/theme-mac/icons/help-icons/button_back_XBOX.svg</button_back_SNES>
+            <button_start_SNES>./assets/theme-mac/icons/help-icons/button_start_XBOX.svg</button_start_SNES>
+
         <!-- Animated UI Path ================================================================-->
             <!-- System assets -->
             <sysSsaver>system-ssaver.json</sysSsaver>
@@ -50,9 +92,15 @@
             <glistCartImg>gamelist-cart.webp</glistCartImg>
 
         <!-- THEME TOGGLES ===================================================================-->
+
+            <!--Playtime *needs work*-->
+            <playtime>false</playtime>
             
             <!-- lottie UI animations -->
             <lottieUI>true</lottieUI>
+
+            <!-- System BG video -->
+            <sysbkvid-vis>false</sysbkvid-vis>
 
             <!-- lottie UI STAIC replacement -->
             <imageUI>false</imageUI>
@@ -62,6 +110,13 @@
 
             <!-- noise lottie -->
             <noise>false</noise>
+
+            <!-- glist bg video -->
+            <glistBGvidVis>false</glistBGvidVis>
+            <glistBGit>1</glistBGit>
+
+            <!-- glist bg image -->
+            <glistBGimgVis>true</glistBGimgVis>
 
             <!-- Alpha logo Visible-->
             <alphaTit>true</alphaTit>
@@ -75,7 +130,10 @@
 
             <!-- sys view image/video frame -->
             <frame>true</frame>
-            
+
+            <!-- Scanlines for last/recently played images/videos-->
+            <scanLines>false</scanLines>
+
             <!-- sys view cartridge shadow -->
             <cshadow>true</cshadow>
 
@@ -85,6 +143,10 @@
             <!-- glist cover art trasparency -->
             <tvalue>50</tvalue>
             <coverTcolor>ffffff</coverTcolor>
+
+            <!-- Cover Image Z Index-->
+            <coverZ>5</coverZ>
+            <glistVidZ>6</glistVidZ>
 
         <!-- Color UI ===================================================================-->
 
@@ -103,7 +165,13 @@
              <folderICNcolor>${white}</folderICNcolor>
              <folderPOS>.55 .57 </folderPOS>
             <folderSize>.25</folderSize>
+            <controlPOS>.52 .5</controlPOS>
             <cartColor>292521</cartColor>
+            <cartOpacity>1</cartOpacity>
+            <gvOpacity>1</gvOpacity>
+            <gvColor>${white}</gvColor>
+            <gvSat>1</gvSat>
+            <gvBright>0</gvBright>
 
         <!-- SOUNDS ===================================================================-->
 
@@ -120,7 +188,10 @@
 
             <!-- Fonts & treatment -->
             <carouselFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</carouselFont>
+            <gcarouselFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gcarouselFont>
+            <carouselFontSize>.036</carouselFontSize>
             <carouselLC>none</carouselLC>
+            <carouselGL>none</carouselGL>
             <carouselColor>222222</carouselColor>
             <carouselAltColor>${white}</carouselAltColor>
             <carItemColor>DFC1A1</carItemColor>
@@ -132,6 +203,7 @@
             <recentRotate>6</recentRotate>
             <roidRotate>4</roidRotate>
             <roidGradientEnd>${white}</roidGradientEnd>
+            <gtitvis>true</gtitvis>
 
             <gstats>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gstats>
             <gstatsColor>DFC1A1</gstatsColor>
@@ -148,12 +220,14 @@
             <gcount>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gcount>
             <gcountColor>DFC1A1</gcountColor>
 
-            <cCollectionSys>./../assets/theme-mac/type/marvin-trial.otf</cCollectionSys>
+            <cCollectionSys>./assets/theme-mac/type/marvin-trial.otf</cCollectionSys>
             <cCollectionColor>${white}</cCollectionColor>
 
             <playtimeFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</playtimeFont>
             <playtimeColor>${white}</playtimeColor>
             
+            <starFilled>./assets/theme-mac/icons/star-full.svg</starFilled>
+            <starEmpty>./assets/theme-mac/icons/star-empty.svg</starEmpty>
            
 
             <!-- Animated UI -->
@@ -161,10 +235,16 @@
 
             <!-- Background Images -->
             <sysbk>./assets/theme-mac/animations/background.webp</sysbk>
+            <cartbk>./assets/theme-mac/animations/background.webp</cartbk>
+            <sysbkvid>./assets/theme-cyber/animations/mainbg.mp4</sysbkvid>
+            <cartbkvid>./assets/theme-cyber/animations/cartbg.mp4</cartbkvid>
             <bgGradientEnd>1f0f0070</bgGradientEnd>
             <gameBKv>./assets/theme-mac/animations/gamelist/gbackground-video.webp</gameBKv>
             <gameBKp>./assets/theme-mac/animations/gamelist/gbackground-plain.webp</gameBKp>
             <gameBKb>./assets/theme-mac/animations/gamelist/gbackground-blank.webp</gameBKb>
+            <glGvbgV>bg-video.mp4</glGvbgV>
+            <glGvbgI>gbackground-video.webp</glGvbgI>
+            <gbkOpacity>.6</gbkOpacity>
 
             <!-- Badge Icons -->
             <favoriteB>./assets/theme-mac/icons/badge-favorite.webp</favoriteB>
@@ -228,6 +308,48 @@
         <!-- ASSET PATH ===================================================================-->
             <assetPath>theme-mac</assetPath>
 
+        <!-- HELP ICONS ===================================================================-->
+            <dpad_updown>./assets/theme-mac/icons/help-icons/dpad_updown.svg</dpad_updown>
+            <dpad_leftright>./assets/theme-mac/icons/help-icons/dpad_leftright.svg</dpad_leftright>
+            <dpad_all>./assets/theme-mac/icons/help-icons/dpad_all.svg</dpad_all>
+            <thumbstick_click>./assets/theme-mac/icons/help-icons/thumbstick_click.svg</thumbstick_click>
+            <button_l>./assets/theme-mac/icons/help-icons/button_l.svg</button_l>
+            <button_r>./assets/theme-mac/icons/help-icons/button_r.svg</button_r>
+            <button_lr>./assets/theme-mac/icons/help-icons/button_lr.svg</button_lr>
+            <button_lt>./assets/theme-mac/icons/help-icons/button_lt.svg</button_lt>
+            <button_rt>./assets/theme-mac/icons/help-icons/button_rt.svg</button_rt>
+            <button_ltrt>./assets/theme-mac/icons/help-icons/button_ltrt.svg</button_ltrt>
+            <button_a_XBOX>./assets/theme-mac/icons/help-icons/button_a_XBOX.svg</button_a_XBOX>
+            <button_b_XBOX>./assets/theme-mac/icons/help-icons/button_b_XBOX.svg</button_b_XBOX>
+            <button_x_XBOX>./assets/theme-mac/icons/help-icons/button_x_XBOX.svg</button_x_XBOX>
+            <button_y_XBOX>./assets/theme-mac/icons/help-icons/button_y_XBOX.svg</button_y_XBOX>
+            <button_back_XBOX>./assets/theme-mac/icons/help-icons/button_back_XBOX.svg</button_back_XBOX>
+            <button_start_XBOX>./assets/theme-mac/icons/help-icons/button_start_XBOX.svg</button_start_XBOX>
+            <button_back_XBOX360>./assets/theme-mac/icons/help-icons/button_back_XBOX360.svg</button_back_XBOX360>
+            <button_start_XBOX360>./assets/theme-mac/icons/help-icons/button_start_XBOX360.svg</button_start_XBOX360>
+            <button_a_PS>./assets/theme-mac/icons/help-icons/button_a_PS.svg</button_a_PS>
+            <button_b_PS>./assets/theme-mac/icons/help-icons/button_b_PS.svg</button_b_PS>
+            <button_x_PS>./assets/theme-mac/icons/help-icons/button_x_PS.svg</button_x_PS>
+            <button_y_PS>./assets/theme-mac/icons/help-icons/button_y_PS.svg</button_y_PS>
+            <button_back_PS123>./assets/theme-mac/icons/help-icons/button_back_PS123.svg</button_back_PS123>
+            <button_start_PS123>./assets/theme-mac/icons/help-icons/button_start_PS123.svg</button_start_PS123>
+            <button_back_PS4>./assets/theme-mac/icons/help-icons/button_back_PS4.svg</button_back_PS4>
+            <button_start_PS4>./assets/theme-mac/icons/help-icons/button_start_PS4.svg</button_start_PS4>
+            <button_back_PS5>./assets/theme-mac/icons/help-icons/button_back_PS5.svg</button_back_PS5>
+            <button_start_PS5>./assets/theme-mac/icons/help-icons/button_start_PS5.svg</button_start_PS5>
+            <button_a_switch>./assets/theme-mac/icons/help-icons/button_a_XBOX.svg</button_a_switch>
+            <button_b_switch>./assets/theme-mac/icons/help-icons/button_b_XBOX.svg</button_b_switch>
+            <button_x_switch>./assets/theme-mac/icons/help-icons/button_x_XBOX.svg</button_x_switch>
+            <button_y_switch>./assets/theme-mac/icons/help-icons/button_y_XBOX.svg</button_y_switch>
+            <button_back_switch>./assets/theme-mac/icons/help-icons/button_back_switch.svg</button_back_switch>
+            <button_start_switch>./assets/theme-mac/icons/help-icons/button_start_switch.svg</button_start_switch>
+            <button_a_SNES>./assets/theme-mac/icons/help-icons/button_a_XBOX.svg</button_a_SNES>
+            <button_b_SNES>./assets/theme-mac/icons/help-icons/button_b_XBOX.svg</button_b_SNES>
+            <button_x_SNES>./assets/theme-mac/icons/help-icons/button_x_XBOX.svg</button_x_SNES>
+            <button_y_SNES>./assets/theme-mac/icons/help-icons/button_y_XBOX.svg</button_y_SNES>
+            <button_back_SNES>./assets/theme-mac/icons/help-icons/button_back_XBOX.svg</button_back_SNES>
+            <button_start_SNES>./assets/theme-mac/icons/help-icons/button_start_XBOX.svg</button_start_SNES>
+
         <!-- Animated UI Path ================================================================-->
             <!-- System assets -->
             <sysSsaver>system-ssaver.json</sysSsaver>
@@ -250,9 +372,15 @@
             <glistCartImg>gamelist-cart.webp</glistCartImg>
 
         <!-- THEME TOGGLES ===================================================================-->
+
+            <!--Playtime *needs work*-->
+            <playtime>false</playtime>
             
             <!-- lottie UI animations -->
             <lottieUI>false</lottieUI>
+
+            <!-- System BG video -->
+            <sysbkvid-vis>false</sysbkvid-vis>
 
             <!-- lottie UI STAIC replacement-->
             <imageUI>true</imageUI>
@@ -266,6 +394,13 @@
             <!-- noise lottie -->
             <noise>false</noise>
 
+            <!-- glist bg video -->
+            <glistBGvidVis>false</glistBGvidVis>
+            <glistBGit>1</glistBGit>
+
+            <!-- glist bg image -->
+            <glistBGimgVis>true</glistBGimgVis>
+
             <!-- Noise video -->
             <glistNoise>false</glistNoise>
             <sysNoise>false</sysNoise>
@@ -275,7 +410,10 @@
 
             <!-- sys view image/video frame -->
             <frame>true</frame>
-            
+
+            <!-- Scanlines for last/recently played images/videos-->
+            <scanLines>false</scanLines>
+
             <!-- sys view cartridge shadow -->
             <cshadow>true</cshadow>
 
@@ -285,6 +423,10 @@
             <!-- glist cover art trasparency -->
             <tvalue>50</tvalue>
             <coverTcolor>ffffff</coverTcolor>
+
+            <!-- Cover Image Z Index-->
+            <coverZ>5</coverZ>
+            <glistVidZ>6</glistVidZ>
 
         <!-- Color UI ===================================================================-->
 
@@ -302,7 +444,13 @@
             <folderICNcolor>${white}</folderICNcolor>
             <folderPOS>.55 .57 </folderPOS>
             <folderSize>.25</folderSize>
+            <controlPOS> .5 .5 </controlPOS>
             <cartColor>292521</cartColor>
+            <cartOpacity>1</cartOpacity>
+            <gvOpacity>1</gvOpacity>
+            <gvColor>${white}</gvColor>
+            <gvSat>1</gvSat>
+            <gvBright>0</gvBright>
 
         <!-- SOUNDS ===================================================================-->
 
@@ -319,7 +467,10 @@
 
             <!-- Fonts & treatment -->
             <carouselFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</carouselFont>
+            <gcarouselFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gcarouselFont>
+            <carouselFontSize>.036</carouselFontSize>
             <carouselLC>uppercase</carouselLC>
+            <carouselGL>none</carouselGL>
             <carouselColor>222222</carouselColor>
             <carouselAltColor>${white}</carouselAltColor>
             <carItemColor>DFC1A1</carItemColor>
@@ -331,6 +482,7 @@
             <recentRotate>6</recentRotate>
             <roidRotate>4</roidRotate>
             <roidGradientEnd>${white}</roidGradientEnd>
+            <gtitvis>true</gtitvis>
 
             <gstats>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</gstats>
             <gstatsColor>DFC1A1</gstatsColor>
@@ -353,13 +505,21 @@
             <playtimeFont>./assets/theme-mac/type/AdvercaseFont-Demo-Bold.otf</playtimeFont>
             <playtimeColor>${white}</playtimeColor>
             
+            <starFilled>./assets/theme-mac/icons/star-full.svg</starFilled>
+            <starEmpty>./assets/theme-mac/icons/star-empty.svg</starEmpty>
 
             <!-- Background Images -->
             <sysbk>./assets/theme-mac/animations/background.webp</sysbk>
+            <cartbk>./assets/theme-mac/animations/background.webp</cartbk>
+            <sysbkvid>./assets/theme-cyber/animations/mainbg.mp4</sysbkvid>
+            <cartbkvid>./assets/theme-cyber/animations/cartbg.mp4</cartbkvid>
             <bgGradientEnd>1f0f0070</bgGradientEnd>
+            <glGvbgV>bg-video.mp4</glGvbgV>
+            <glGvbgI>gbackground-video.webp</glGvbgI>
             <gameBKv>./assets/theme-mac/animations/gamelist/gbackground-video.webp</gameBKv>
             <gameBKp>./assets/theme-mac/animations/gamelist/gbackground-plain.webp</gameBKp>
             <gameBKb>./assets/theme-mac/animations/gamelist/gbackground-blank.webp</gameBKb>
+            <gbkOpacity>.6</gbkOpacity>
 
             <!-- Badge Icons -->
             <favoriteB>./assets/theme-mac/icons/badge-favorite.webp</favoriteB>
@@ -422,6 +582,48 @@
 
         <!-- ASSET PATH ===================================================================-->
             <assetPath>theme-clean</assetPath>
+        
+        <!-- HELP ICONS ===================================================================-->
+            <dpad_updown>./assets/theme-clean/icons/help-icons/dpad_updown.svg</dpad_updown>
+            <dpad_leftright>./assets/theme-clean/icons/help-icons/dpad_leftright.svg</dpad_leftright>
+            <dpad_all>./assets/theme-clean/icons/help-icons/dpad_all.svg</dpad_all>
+            <thumbstick_click>./assets/theme-clean/icons/help-icons/thumbstick_click.svg</thumbstick_click>
+            <button_l>./assets/theme-clean/icons/help-icons/button_l.svg</button_l>
+            <button_r>./assets/theme-clean/icons/help-icons/button_r.svg</button_r>
+            <button_lr>./assets/theme-clean/icons/help-icons/button_lr.svg</button_lr>
+            <button_lt>./assets/theme-clean/icons/help-icons/button_lt.svg</button_lt>
+            <button_rt>./assets/theme-clean/icons/help-icons/button_rt.svg</button_rt>
+            <button_ltrt>./assets/theme-clean/icons/help-icons/button_ltrt.svg</button_ltrt>
+            <button_a_XBOX>./assets/theme-clean/icons/help-icons/button_a_XBOX.svg</button_a_XBOX>
+            <button_b_XBOX>./assets/theme-clean/icons/help-icons/button_b_XBOX.svg</button_b_XBOX>
+            <button_x_XBOX>./assets/theme-clean/icons/help-icons/button_x_XBOX.svg</button_x_XBOX>
+            <button_y_XBOX>./assets/theme-clean/icons/help-icons/button_y_XBOX.svg</button_y_XBOX>
+            <button_back_XBOX>./assets/theme-clean/icons/help-icons/button_back_XBOX.svg</button_back_XBOX>
+            <button_start_XBOX>./assets/theme-clean/icons/help-icons/button_start_XBOX.svg</button_start_XBOX>
+            <button_back_XBOX360>./assets/theme-clean/icons/help-icons/button_back_XBOX360.svg</button_back_XBOX360>
+            <button_start_XBOX360>./assets/theme-clean/icons/help-icons/button_start_XBOX360.svg</button_start_XBOX360>
+            <button_a_PS>./assets/theme-clean/icons/help-icons/button_a_PS.svg</button_a_PS>
+            <button_b_PS>./assets/theme-clean/icons/help-icons/button_b_PS.svg</button_b_PS>
+            <button_x_PS>./assets/theme-clean/icons/help-icons/button_x_PS.svg</button_x_PS>
+            <button_y_PS>./assets/theme-clean/icons/help-icons/button_y_PS.svg</button_y_PS>
+            <button_back_PS123>./assets/theme-clean/icons/help-icons/button_back_PS123.svg</button_back_PS123>
+            <button_start_PS123>./assets/theme-clean/icons/help-icons/button_start_PS123.svg</button_start_PS123>
+            <button_back_PS4>./assets/theme-clean/icons/help-icons/button_back_PS4.svg</button_back_PS4>
+            <button_start_PS4>./assets/theme-clean/icons/help-icons/button_start_PS4.svg</button_start_PS4>
+            <button_back_PS5>./assets/theme-clean/icons/help-icons/button_back_PS5.svg</button_back_PS5>
+            <button_start_PS5>./assets/theme-clean/icons/help-icons/button_start_PS5.svg</button_start_PS5>
+            <button_a_switch>./assets/theme-clean/icons/help-icons/button_a_XBOX.svg</button_a_switch>
+            <button_b_switch>./assets/theme-clean/icons/help-icons/button_b_XBOX.svg</button_b_switch>
+            <button_x_switch>./assets/theme-clean/icons/help-icons/button_x_XBOX.svg</button_x_switch>
+            <button_y_switch>./assets/theme-clean/icons/help-icons/button_y_XBOX.svg</button_y_switch>
+            <button_back_switch>./assets/theme-clean/icons/help-icons/button_back_switch.svg</button_back_switch>
+            <button_start_switch>./assets/theme-clean/icons/help-icons/button_start_switch.svg</button_start_switch>
+            <button_a_SNES>./assets/theme-clean/icons/help-icons/button_a_XBOX.svg</button_a_SNES>
+            <button_b_SNES>./assets/theme-clean/icons/help-icons/button_b_XBOX.svg</button_b_SNES>
+            <button_x_SNES>./assets/theme-clean/icons/help-icons/button_x_XBOX.svg</button_x_SNES>
+            <button_y_SNES>./assets/theme-clean/icons/help-icons/button_y_XBOX.svg</button_y_SNES>
+            <button_back_SNES>./assets/theme-clean/icons/help-icons/button_back_XBOX.svg</button_back_SNES>
+            <button_start_SNES>./assets/theme-clean/icons/help-icons/button_start_XBOX.svg</button_start_SNES>
 
         <!-- Animated UI Path ================================================================-->
             <!-- System assets -->
@@ -445,9 +647,15 @@
             <glistCartImg>gamelist-cart.webp</glistCartImg>
 
         <!-- THEME TOGGLES ===================================================================-->
+
+            <!--Playtime *needs work*-->
+            <playtime>false</playtime>
             
             <!-- lottie UI animations -->
             <lottieUI>true</lottieUI>
+
+            <!-- System BG video -->
+            <sysbkvid-vis>false</sysbkvid-vis>
 
             <!-- lottie UI STAIC replacement -->
             <imageUI>false</imageUI>
@@ -461,6 +669,13 @@
             <!-- noise lottie -->
             <noise>false</noise>
 
+            <!-- glist bg video -->
+            <glistBGvidVis>true</glistBGvidVis>
+            <glistBGit>1</glistBGit>
+
+            <!-- glist bg image -->
+            <glistBGimgVis>true</glistBGimgVis>
+
             <!-- Noise video -->
             <glistNoise>false</glistNoise>
             <sysNoise>false</sysNoise>
@@ -470,6 +685,9 @@
 
             <!-- sys view image/video frame -->
             <frame>false</frame>
+
+            <!-- Scanlines for last/recently played images/videos-->
+            <scanLines>false</scanLines>
             
             <!-- sys view cartridge shadow -->
             <cshadow>false</cshadow>
@@ -480,6 +698,10 @@
             <!-- glist cover art trasparency -->
             <tvalue>FF</tvalue>
             <coverTcolor>000000</coverTcolor>
+
+            <!-- Cover Image Z Index-->
+            <coverZ>5</coverZ>
+            <glistVidZ>6</glistVidZ>
 
         <!-- Color UI ===================================================================-->
 
@@ -498,7 +720,13 @@
             <folderICNcolor>${white}</folderICNcolor>
             <folderPOS>.5 .55 </folderPOS>
             <folderSize>.35</folderSize>
+            <controlPOS>.47 .5</controlPOS>
             <cartColor>90a6e4</cartColor>
+            <cartOpacity>1</cartOpacity>
+            <gvOpacity>1</gvOpacity>
+            <gvColor>${white}</gvColor>
+            <gvSat>1</gvSat>
+            <gvBright>0</gvBright>
 
         <!-- SOUNDS ===================================================================-->
 
@@ -514,7 +742,10 @@
 
             <!-- Fonts & treatment -->
             <carouselFont>./assets/theme-clean/type/clean-Light.ttf</carouselFont>
+            <gcarouselFont>./assets/theme-clean/type/clean-Light.ttf</gcarouselFont>
+            <carouselFontSize>.036</carouselFontSize>
             <carouselLC>uppercase</carouselLC>
+            <carouselGL>capitalize</carouselGL>
             <carouselColor>${white}</carouselColor>
             <carouselAltColor>${white}</carouselAltColor>
             <carItemColor>${white}</carItemColor>
@@ -526,6 +757,7 @@
             <recentRotate>6</recentRotate>
             <roidRotate>4</roidRotate>
             <roidGradientEnd>${black}</roidGradientEnd>
+            <gtitvis>true</gtitvis>
 
             <gstats>./assets/theme-clean/type/clean-ExtraLight.ttf</gstats>
             <gstatsColor>${white}</gstatsColor>
@@ -542,19 +774,28 @@
             <gcount>./assets/theme-clean/type/clean-ExtraLight.ttf</gcount>
             <gcountColor>${white}</gcountColor>
 
-            <cCollectionSys>./../theme-clean/type/clean-Black.ttf</cCollectionSys>
+            <cCollectionSys>./../assets/theme-clean/type/clean-Black.ttf</cCollectionSys>
             <cCollectionColor>${white}</cCollectionColor>
 
-            <playtimeFont>./theme-clean/type/clean-Black.ttf</playtimeFont>
+            <playtimeFont>./assets/theme-clean/type/clean-Black.ttf</playtimeFont>
             <playtimeColor>${white}</playtimeColor>
+
+            <starFilled>./assets/theme-clean/icons/star-full.svg</starFilled>
+            <starEmpty>./assets/theme-clean/icons/star-empty.svg</starEmpty>
             
 
             <!-- Background Images -->
             <sysbk>./assets/theme-clean/animations/background.webp</sysbk>
+            <cartbk>./assets/theme-clean/animations/background.webp</cartbk>
+            <sysbkvid>./assets/theme-cyber/animations/mainbg.mp4</sysbkvid>
+            <cartbkvid>./assets/theme-cyber/animations/cartbg.mp4</cartbkvid>
             <bgGradientEnd>131315</bgGradientEnd>
+            <glGvbgV>bg-video.mp4</glGvbgV>
+            <glGvbgI>gbackground-video.webp</glGvbgI>
             <gameBKv>./assets/theme-clean/animations/gamelist/gbackground-video.webp</gameBKv>
             <gameBKp>./assets/theme-clean/animations/gamelist/gbackground-plain.webp</gameBKp>
             <gameBKb>./assets/theme-clean/animations/gamelist/gbackground-blank.webp</gameBKb>
+            <gbkOpacity>1</gbkOpacity>
 
             <!-- Badge Icons -->
             <favoriteB>./assets/theme-clean/icons/badge-favorite.webp</favoriteB>
@@ -618,6 +859,48 @@
         <!-- ASSET PATH ===================================================================-->
             <assetPath>theme-clean</assetPath>
 
+        <!-- HELP ICONS ===================================================================-->
+            <dpad_updown>./assets/theme-clean/icons/help-icons/dpad_updown.svg</dpad_updown>
+            <dpad_leftright>./assets/theme-clean/icons/help-icons/dpad_leftright.svg</dpad_leftright>
+            <dpad_all>./assets/theme-clean/icons/help-icons/dpad_all.svg</dpad_all>
+            <thumbstick_click>./assets/theme-clean/icons/help-icons/thumbstick_click.svg</thumbstick_click>
+            <button_l>./assets/theme-clean/icons/help-icons/button_l.svg</button_l>
+            <button_r>./assets/theme-clean/icons/help-icons/button_r.svg</button_r>
+            <button_lr>./assets/theme-clean/icons/help-icons/button_lr.svg</button_lr>
+            <button_lt>./assets/theme-clean/icons/help-icons/button_lt.svg</button_lt>
+            <button_rt>./assets/theme-clean/icons/help-icons/button_rt.svg</button_rt>
+            <button_ltrt>./assets/theme-clean/icons/help-icons/button_ltrt.svg</button_ltrt>
+            <button_a_XBOX>./assets/theme-clean/icons/help-icons/button_a_XBOX.svg</button_a_XBOX>
+            <button_b_XBOX>./assets/theme-clean/icons/help-icons/button_b_XBOX.svg</button_b_XBOX>
+            <button_x_XBOX>./assets/theme-clean/icons/help-icons/button_x_XBOX.svg</button_x_XBOX>
+            <button_y_XBOX>./assets/theme-clean/icons/help-icons/button_y_XBOX.svg</button_y_XBOX>
+            <button_back_XBOX>./assets/theme-clean/icons/help-icons/button_back_XBOX.svg</button_back_XBOX>
+            <button_start_XBOX>./assets/theme-clean/icons/help-icons/button_start_XBOX.svg</button_start_XBOX>
+            <button_back_XBOX360>./assets/theme-clean/icons/help-icons/button_back_XBOX360.svg</button_back_XBOX360>
+            <button_start_XBOX360>./assets/theme-clean/icons/help-icons/button_start_XBOX360.svg</button_start_XBOX360>
+            <button_a_PS>./assets/theme-clean/icons/help-icons/button_a_PS.svg</button_a_PS>
+            <button_b_PS>./assets/theme-clean/icons/help-icons/button_b_PS.svg</button_b_PS>
+            <button_x_PS>./assets/theme-clean/icons/help-icons/button_x_PS.svg</button_x_PS>
+            <button_y_PS>./assets/theme-clean/icons/help-icons/button_y_PS.svg</button_y_PS>
+            <button_back_PS123>./assets/theme-clean/icons/help-icons/button_back_PS123.svg</button_back_PS123>
+            <button_start_PS123>./assets/theme-clean/icons/help-icons/button_start_PS123.svg</button_start_PS123>
+            <button_back_PS4>./assets/theme-clean/icons/help-icons/button_back_PS4.svg</button_back_PS4>
+            <button_start_PS4>./assets/theme-clean/icons/help-icons/button_start_PS4.svg</button_start_PS4>
+            <button_back_PS5>./assets/theme-clean/icons/help-icons/button_back_PS5.svg</button_back_PS5>
+            <button_start_PS5>./assets/theme-clean/icons/help-icons/button_start_PS5.svg</button_start_PS5>
+            <button_a_switch>./assets/theme-clean/icons/help-icons/button_a_XBOX.svg</button_a_switch>
+            <button_b_switch>./assets/theme-clean/icons/help-icons/button_b_XBOX.svg</button_b_switch>
+            <button_x_switch>./assets/theme-clean/icons/help-icons/button_x_XBOX.svg</button_x_switch>
+            <button_y_switch>./assets/theme-clean/icons/help-icons/button_y_XBOX.svg</button_y_switch>
+            <button_back_switch>./assets/theme-clean/icons/help-icons/button_back_switch.svg</button_back_switch>
+            <button_start_switch>./assets/theme-clean/icons/help-icons/button_start_switch.svg</button_start_switch>
+            <button_a_SNES>./assets/theme-clean/icons/help-icons/button_a_XBOX.svg</button_a_SNES>
+            <button_b_SNES>./assets/theme-clean/icons/help-icons/button_b_XBOX.svg</button_b_SNES>
+            <button_x_SNES>./assets/theme-clean/icons/help-icons/button_x_XBOX.svg</button_x_SNES>
+            <button_y_SNES>./assets/theme-clean/icons/help-icons/button_y_XBOX.svg</button_y_SNES>
+            <button_back_SNES>./assets/theme-clean/icons/help-icons/button_back_XBOX.svg</button_back_SNES>
+            <button_start_SNES>./assets/theme-clean/icons/help-icons/button_start_XBOX.svg</button_start_SNES>
+
         <!-- Animated UI Path ================================================================-->
             <!-- System assets -->
             <sysSsaver>system-ssaver.json</sysSsaver>
@@ -640,9 +923,15 @@
             <glistCartImg>gamelist-cart.webp</glistCartImg>
 
         <!-- THEME TOGGLES ===================================================================-->
+
+            <!--Playtime *needs work*-->
+            <playtime>false</playtime>
             
             <!-- lottie UI animations -->
             <lottieUI>true</lottieUI>
+
+            <!-- System BG video -->
+            <sysbkvid-vis>false</sysbkvid-vis>
 
             <!-- lottie UI STAIC replacement -->
             <imageUI>false</imageUI>
@@ -656,6 +945,13 @@
             <!-- noise lottie -->
             <noise>false</noise>
 
+            <!-- glist bg video -->
+            <glistBGvidVis>false</glistBGvidVis>
+            <glistBGit>1</glistBGit>
+
+            <!-- glist bg image -->
+            <glistBGimgVis>true</glistBGimgVis>
+
             <!-- Noise video -->
             <glistNoise>false</glistNoise>
             <sysNoise>false</sysNoise>
@@ -665,6 +961,9 @@
 
             <!-- sys view image/video frame -->
             <frame>false</frame>
+
+            <!-- Scanlines for last/recently played images/videos-->
+            <scanLines>false</scanLines>
             
             <!-- sys view cartridge shadow -->
             <cshadow>false</cshadow>
@@ -675,6 +974,10 @@
             <!-- glist cover art trasparency -->
             <tvalue>FF</tvalue>
             <coverTcolor>000000</coverTcolor>
+
+            <!-- Cover Image Z Index-->
+            <coverZ>5</coverZ>
+            <glistVidZ>6</glistVidZ>
 
         <!-- Color UI ===================================================================-->
 
@@ -694,6 +997,12 @@
             <folderPOS>.5 .55 </folderPOS>
             <folderSize>.35</folderSize>
             <cartColor>90a6e4</cartColor>
+            <cartOpacity>1</cartOpacity>
+            <controlPOS> .5 .5 </controlPOS>
+            <gvOpacity>1</gvOpacity>
+            <gvColor>${white}</gvColor>
+            <gvSat>1</gvSat>
+            <gvBright>0</gvBright>
 
         <!-- SOUNDS ===================================================================-->
 
@@ -709,7 +1018,10 @@
 
             <!-- Fonts & treatment -->
             <carouselFont>./assets/theme-clean/type/clean-Light.ttf</carouselFont>
+            <gcarouselFont>./assets/theme-clean/type/clean-Light.ttf</gcarouselFont>
+            <carouselFontSize>.036</carouselFontSize>
             <carouselLC>uppercase</carouselLC>
+            <carouselGL>capitalize</carouselGL>
             <carouselColor>${white}</carouselColor>
             <carouselAltColor>${white}</carouselAltColor>
             <carItemColor>${white}</carItemColor>
@@ -721,6 +1033,7 @@
             <recentRotate>6</recentRotate>
             <roidRotate>4</roidRotate>
             <roidGradientEnd>${black}</roidGradientEnd>
+            <gtitvis>true</gtitvis>
 
             <gstats>./assets/theme-clean/type/clean-ExtraLight.ttf</gstats>
             <gstatsColor>${white}</gstatsColor>
@@ -742,14 +1055,23 @@
 
             <playtimeFont>./assets/theme-clean/type/clean-Black.ttf</playtimeFont>
             <playtimeColor>${white}</playtimeColor>
+
+            <starFilled>./assets/theme-clean/icons/star-full.svg</starFilled>
+            <starEmpty>./assets/theme-clean/icons/star-empty.svg</starEmpty>
             
 
             <!-- Background Images -->
             <sysbk>./assets/theme-clean/animations/background.webp</sysbk>
+            <cartbk>./assets/theme-clean/animations/background.webp</cartbk>
+            <sysbkvid>./assets/theme-cyber/animations/mainbg.mp4</sysbkvid>
+            <cartbkvid>./assets/theme-cyber/animations/cartbg.mp4</cartbkvid>
             <bgGradientEnd>131315</bgGradientEnd>
+            <glGvbgV>bg-video.mp4</glGvbgV>
+            <glGvbgI>gbackground-video.webp</glGvbgI>
             <gameBKv>./assets/theme-clean/animations/gamelist/gbackground-video.webp</gameBKv>
             <gameBKp>./assets/theme-clean/animations/gamelist/gbackground-plain.webp</gameBKp>
             <gameBKb>./assets/theme-clean/animations/gamelist/gbackground-blank.webp</gameBKb>
+            <gbkOpacity>1</gbkOpacity>
 
             <!-- Badge Icons -->
             <favoriteB>./assets/theme-clean/icons/badge-favorite.webp</favoriteB>
@@ -804,6 +1126,562 @@
             <cart-195-9>0.693 0.65</cart-195-9>
             <cart-20-9>0.693 0.65</cart-20-9>
             <cart-21-9>0.693 0.65</cart-21-9>
+            <cart-5-3v>0.5 0.83</cart-5-3v>
+        </variables>
+    </colorScheme>
+   <colorScheme name="cyber">
+        <variables>
+
+        <!-- ASSET PATH ===================================================================-->
+            <assetPath>theme-cyber</assetPath>
+        <!-- HELP ICONS ===================================================================-->
+            <dpad_updown>./assets/theme-cyber/icons/help-icons/dpad_updown.svg</dpad_updown>
+            <dpad_leftright>./assets/theme-cyber/icons/help-icons/dpad_leftright.svg</dpad_leftright>
+            <dpad_all>./assets/theme-cyber/icons/help-icons/dpad_all.svg</dpad_all>
+            <thumbstick_click>./assets/theme-cyber/icons/help-icons/thumbstick_click.svg</thumbstick_click>
+            <button_l>./assets/theme-cyber/icons/help-icons/button_l.svg</button_l>
+            <button_r>./assets/theme-cyber/icons/help-icons/button_r.svg</button_r>
+            <button_lr>./assets/theme-cyber/icons/help-icons/button_lr.svg</button_lr>
+            <button_lt>./assets/theme-cyber/icons/help-icons/button_lt.svg</button_lt>
+            <button_rt>./assets/theme-cyber/icons/help-icons/button_rt.svg</button_rt>
+            <button_ltrt>./assets/theme-cyber/icons/help-icons/button_ltrt.svg</button_ltrt>
+            <button_a_XBOX>./assets/theme-cyber/icons/help-icons/button_a_XBOX.svg</button_a_XBOX>
+            <button_b_XBOX>./assets/theme-cyber/icons/help-icons/button_b_XBOX.svg</button_b_XBOX>
+            <button_x_XBOX>./assets/theme-cyber/icons/help-icons/button_x_XBOX.svg</button_x_XBOX>
+            <button_y_XBOX>./assets/theme-cyber/icons/help-icons/button_y_XBOX.svg</button_y_XBOX>
+            <button_back_XBOX>./assets/theme-cyber/icons/help-icons/button_back_XBOX.svg</button_back_XBOX>
+            <button_start_XBOX>./assets/theme-cyber/icons/help-icons/button_start_XBOX.svg</button_start_XBOX>
+            <button_back_XBOX360>./assets/theme-cyber/icons/help-icons/button_back_XBOX360.svg</button_back_XBOX360>
+            <button_start_XBOX360>./assets/theme-cyber/icons/help-icons/button_start_XBOX360.svg</button_start_XBOX360>
+            <button_a_PS>./assets/theme-cyber/icons/help-icons/button_a_PS.svg</button_a_PS>
+            <button_b_PS>./assets/theme-cyber/icons/help-icons/button_b_PS.svg</button_b_PS>
+            <button_x_PS>./assets/theme-cyber/icons/help-icons/button_x_PS.svg</button_x_PS>
+            <button_y_PS>./assets/theme-cyber/icons/help-icons/button_y_PS.svg</button_y_PS>
+            <button_back_PS123>./assets/theme-cyber/icons/help-icons/button_back_PS123.svg</button_back_PS123>
+            <button_start_PS123>./assets/theme-cyber/icons/help-icons/button_start_PS123.svg</button_start_PS123>
+            <button_back_PS4>./assets/theme-cyber/icons/help-icons/button_back_PS4.svg</button_back_PS4>
+            <button_start_PS4>./assets/theme-cyber/icons/help-icons/button_start_PS4.svg</button_start_PS4>
+            <button_back_PS5>./assets/theme-cyber/icons/help-icons/button_back_PS5.svg</button_back_PS5>
+            <button_start_PS5>./assets/theme-cyber/icons/help-icons/button_start_PS5.svg</button_start_PS5>
+            <button_a_switch>./assets/theme-cyber/icons/help-icons/button_a_XBOX.svg</button_a_switch>
+            <button_b_switch>./assets/theme-cyber/icons/help-icons/button_b_XBOX.svg</button_b_switch>
+            <button_x_switch>./assets/theme-cyber/icons/help-icons/button_x_XBOX.svg</button_x_switch>
+            <button_y_switch>./assets/theme-cyber/icons/help-icons/button_y_XBOX.svg</button_y_switch>
+            <button_back_switch>./assets/theme-cyber/icons/help-icons/button_back_switch.svg</button_back_switch>
+            <button_start_switch>./assets/theme-cyber/icons/help-icons/button_start_switch.svg</button_start_switch>
+            <button_a_SNES>./assets/theme-cyber/icons/help-icons/button_a_XBOX.svg</button_a_SNES>
+            <button_b_SNES>./assets/theme-cyber/icons/help-icons/button_b_XBOX.svg</button_b_SNES>
+            <button_x_SNES>./assets/theme-cyber/icons/help-icons/button_x_XBOX.svg</button_x_SNES>
+            <button_y_SNES>./assets/theme-cyber/icons/help-icons/button_y_XBOX.svg</button_y_SNES>
+            <button_back_SNES>./assets/theme-cyber/icons/help-icons/button_back_XBOX.svg</button_back_SNES>
+            <button_start_SNES>./assets/theme-cyber/icons/help-icons/button_start_XBOX.svg</button_start_SNES>
+
+        <!-- Animated UI Path ================================================================-->
+            <!-- System assets -->
+            <sysSsaver>system-video.json</sysSsaver>
+            <sysSsaverImg>system-video.webp</sysSsaverImg>
+
+            <sysVideo>system-video.json</sysVideo>
+            <sysVideoImg>system-video.webp</sysVideoImg>
+
+            <sysCart>system-video.json</sysCart>
+            <sysCartImg>system-video.webp</sysCartImg>
+
+            <!-- gamelist assets -->
+            <glistPlain>gamelist-plain.json</glistPlain>
+            <glistPlainImg>gamelist-plain.webp</glistPlainImg>
+
+            <glistGrid>gamelist-grid.json</glistGrid>
+            <glistGridImg>gamelist-grid.webp</glistGridImg>
+
+            <glistCart>gamelist-cart.json</glistCart>
+            <glistCartImg>gamelist-cart.webp</glistCartImg>
+
+        <!-- THEME TOGGLES ===================================================================-->
+
+            <!--Playtime *needs work*-->
+            <playtime>false</playtime>
+            
+            <!-- lottie UI animations -->
+            <lottieUI>true</lottieUI>
+
+            <!-- System BG video -->
+            <sysbkvid-vis>true</sysbkvid-vis>
+
+            <!-- lottie UI STAIC replacement -->
+            <imageUI>false</imageUI>
+
+            <!-- Game list lightbox & frames -->
+            <glistframe>true</glistframe>
+
+            <!-- Alpha logo Visible-->
+            <alphaTit>false</alphaTit>
+
+            <!-- noise lottie -->
+            <noise>false</noise>
+
+            <!-- glist bg video -->
+            <glistBGvidVis>true</glistBGvidVis>
+            <glistBGit>0</glistBGit>
+
+            <!-- glist bg image -->
+            <glistBGimgVis>true</glistBGimgVis>
+
+            <!-- Noise video -->
+            <glistNoise>false</glistNoise>
+            <sysNoise>false</sysNoise>
+            <noiseItCount>1</noiseItCount>
+            <sNOpacity>.1</sNOpacity>
+            <iterationDone>none</iterationDone>
+
+            <!-- sys view image/video frame -->
+            <frame>false</frame>
+
+            <!-- Scanlines for last/recently played images/videos-->
+            <scanLines>true</scanLines>
+            
+            <!-- sys view cartridge shadow -->
+            <cshadow>false</cshadow>
+
+            <!-- glist bgfill gradient (for still image) -->
+            <bgfil>false</bgfil>
+
+            <!-- glist cover art trasparency -->
+            <tvalue>FF</tvalue>
+            <coverTcolor>000000</coverTcolor>
+
+            <!-- Cover & video Z Index-->
+            <coverZ>2</coverZ>
+            <glistVidZ>3</glistVidZ>
+
+        <!-- Color UI ===================================================================-->
+
+            <glist>FFE100</glist>
+            <gmenu>FFE100</gmenu>
+            <gmenuAlt>FFE100</gmenuAlt>
+            <gmenuAlt2>FFE100</gmenuAlt2>
+            <gameratingAltColor>FFE100</gameratingAltColor>
+            <sysLogoColor>FCF0A7</sysLogoColor>
+            <sysLogoAltColor>FCF0A7</sysLogoAltColor>
+            <badgeIconColor>${white}</badgeIconColor>
+            <controllerColor>${black}</controllerColor>
+            <gameratingColor>FFE100</gameratingColor>
+            <ccColor>444444</ccColor>
+            <folderICNcolor>${black}</folderICNcolor>
+            <folderPOS>.5 .6 </folderPOS>
+            <folderSize>.35</folderSize>
+            <controlPOS>.49 .58</controlPOS>
+            <cartColor>71fee7</cartColor>
+            <cartOpacity>.5</cartOpacity>
+            <gvOpacity>.6</gvOpacity>
+            <gvColor>B186FF</gvColor>
+            <gvSat>0</gvSat>
+            <gvBright>2</gvBright>
+
+        <!-- SOUNDS ===================================================================-->
+
+            <soundBrowse>./assets/theme-cyber/sounds/systembrowse.wav</soundBrowse>
+            <soundQselect>./assets/theme-cyber/sounds/quicksysselect.wav</soundQselect>
+            <soundSelect>./assets/theme-cyber/sounds/select.wav</soundSelect>
+            <soundBack>./assets/theme-cyber/sounds/back.wav</soundBack>
+            <soundScroll>./assets/theme-cyber/sounds/scroll.wav</soundScroll>
+            <soundFav>./assets/theme-cyber/sounds/favorite.wav</soundFav>
+            <soundLaunch>./assets/theme-cyber/sounds/launch.wav</soundLaunch>
+
+        <!-- ASSETS ===================================================================-->
+
+            <!-- Fonts & treatment -->
+            <carouselFont>./assets/theme-cyber/type/Kleemax.otf</carouselFont>
+            <gcarouselFont>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</gcarouselFont>
+            <carouselFontSize>.028</carouselFontSize>
+            <!-- OCR KleemaxDemo.otf -->
+            <carouselLC>uppercase</carouselLC>
+            <carouselGL>capitalize</carouselGL>
+            <carouselColor>FCF0A7</carouselColor>
+            <carouselAltColor>FCF0A7</carouselAltColor>
+            <carItemColor>FCF0A7</carItemColor>
+            <carItemAltColor>FFE100</carItemAltColor>
+            <carItemAltColor2>FFE100</carItemAltColor2>
+
+            <recentTit>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</recentTit>
+            <recentTitColor>bcc5ff</recentTitColor>
+            <recentRotate>0</recentRotate>
+            <roidRotate>0</roidRotate>
+            
+            <roidGradientEnd>810DFF</roidGradientEnd>
+            <gtitvis>false</gtitvis>
+
+            <gstats>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</gstats>
+            <gstatsColor>FFE100</gstatsColor>
+            <gstatsAltColor>FFE100</gstatsAltColor>
+
+            <clock>./assets/theme-cyber/type/Reiswar.ttf</clock>
+            <!-- OSCURA.otf Reiswar.ttf -->
+
+            <battlvl>./assets/theme-cyber/type/Reiswar.ttf</battlvl>
+            <!-- OSCURA.otf Reiswar.ttf -->
+
+            <helpFont>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</helpFont>
+
+            <alpha>./assets/theme-cyber/type/OSCURA.otf</alpha>
+
+            <gcount>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</gcount>
+            <gcountColor>FFE100</gcountColor>
+
+            <cCollectionSys>./../assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</cCollectionSys>
+            <cCollectionColor>FFE100</cCollectionColor>
+
+            <playtimeFont>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</playtimeFont>
+            <playtimeColor>FFE100</playtimeColor>
+
+            <starFilled>./assets/theme-cyber/icons/star-full.svg</starFilled>
+            <starEmpty>./assets/theme-cyber/icons/star-empty.svg</starEmpty>
+            
+
+            <!-- Background Images -->
+            <sysbk>./assets/theme-cyber/animations/background.webp</sysbk>
+            <cartbk>./assets/theme-cyber/animations/cartbg.webp</cartbk>
+            <sysbkvid>./assets/theme-cyber/animations/mainbg.mp4</sysbkvid>
+            <cartbkvid>./assets/theme-cyber/animations/cartbg.mp4</cartbkvid>
+            <bgGradientEnd>ffffff</bgGradientEnd>
+            <glGvbgV>bg-grid.mp4</glGvbgV>
+            <glGvbgI>gbackground-grid.webp</glGvbgI>
+            <gameBKv>./assets/theme-cyber/animations/gamelist/gbackground-plain.webp</gameBKv>
+            <gameBKp>./assets/theme-cyber/animations/gamelist/gbackground-plain.webp</gameBKp>
+            <gameBKb>./assets/theme-cyber/animations/gamelist/gbackground-blank.webp</gameBKb>
+            <gbkOpacity>1</gbkOpacity>
+
+            <!-- Badge Icons -->
+            <favoriteB>./assets/theme-cyber/icons/badge-favorite.svg</favoriteB>
+            <collectionB>./assets/theme-cyber/icons/badge-collection.svg</collectionB>
+            <folderB>./assets/theme-cyber/icons/badge-folder.svg</folderB>
+            <completedB>./assets/theme-cyber/icons/badge-complete.svg</completedB>
+            <kidgameB>./assets/theme-cyber/icons/badge-kidgame.svg</kidgameB>
+            <brokenB>./assets/theme-cyber/icons/badge-broken.svg</brokenB>
+            <controllerB>./assets/theme-cyber/icons/badge-controller.svg</controllerB>
+            <altemulatorB>./assets/theme-cyber/icons/badge-altemulator.svg</altemulatorB>
+            <manualB>./assets/theme-cyber/icons/badge-manual.svg</manualB>
+
+            <!-- Status Indicators -->
+            <icon_battery_low>./assets/theme-cyber/icons/bat-low.svg</icon_battery_low>
+            <icon_battery_medium>./assets/theme-cyber/icons/bat-med.svg</icon_battery_medium>
+            <icon_battery_high>./assets/theme-cyber/icons/bat-high.svg</icon_battery_high>
+            <icon_battery_full>./assets/theme-cyber/icons/bat-full.svg</icon_battery_full>
+            <battery_charging>./assets/theme-cyber/icons/bat-charg.svg</battery_charging>
+
+            <!-- responsive sizes ===================================================================-->
+            <gamevidP-1-1>0.498 0.517</gamevidP-1-1>
+            <gamevidP-8-7>0.5 0.518</gamevidP-8-7>
+            <gamevidP-5-4>0.498 0.518</gamevidP-5-4>
+            <gamevidP-4-3>0.497 0.519</gamevidP-4-3>
+            <gamevidP-3-2>0.497 0.519</gamevidP-3-2>
+            <gamevidP-16-10>0.498 0.519</gamevidP-16-10>
+            <gamevidP-16-9>0.498 0.519</gamevidP-16-9>
+            <gamevidP-195-9>0.498 0.524</gamevidP-195-9>
+            <gamevidP-20-9>0.498 0.524</gamevidP-20-9>
+            <gamevidP-21-9>0.498 0.524</gamevidP-21-9>
+            <gamevidP-5-3v>0.495 0.522</gamevidP-5-3v>
+
+            <gamevidS-1-1>.455 .284</gamevidS-1-1>
+            <gamevidS-8-7>.4 .284</gamevidS-8-7>
+            <gamevidS-5-4>.365 .284</gamevidS-5-4>
+            <gamevidS-4-3>.344 .284</gamevidS-4-3>
+            <gamevidS-3-2>.307 .284</gamevidS-3-2>
+            <gamevidS-16-10>.286 .284</gamevidS-16-10>
+            <gamevidS-16-9>.255 .284</gamevidS-16-9>
+            <gamevidS-195-9>.257 .347</gamevidS-195-9>
+            <gamevidS-20-9>.257 .347</gamevidS-20-9>
+            <gamevidS-21-9>.257 .377</gamevidS-21-9>
+            <gamevidS-5-3v>.761 .284</gamevidS-5-3v>
+
+            <cart-1-1>0.84 0.44</cart-1-1>
+            <cart-8-7>0.8 0.44</cart-8-7>
+            <cart-5-4>0.775 0.44</cart-5-4>
+            <cart-4-3>0.758 0.44</cart-4-3>
+            <cart-3-2>0.729 0.44</cart-3-2>
+            <cart-16-10>0.715 0.44</cart-16-10>
+            <cart-16-9>0.693 0.44</cart-16-9>
+            <cart-195-9>0.693 0.43</cart-195-9>
+            <cart-20-9>0.693 0.44</cart-20-9>
+            <cart-21-9>0.693 0.44</cart-21-9>
+            <cart-5-3v>0.5 0.83</cart-5-3v>
+        </variables>
+    </colorScheme>
+    <colorScheme name="cyberlp">
+        <variables>
+
+        <!-- ASSET PATH ===================================================================-->
+            <assetPath>theme-cyber</assetPath>
+        <!-- HELP ICONS ===================================================================-->
+            <dpad_updown>./assets/theme-cyber/icons/help-icons/dpad_updown.svg</dpad_updown>
+            <dpad_leftright>./assets/theme-cyber/icons/help-icons/dpad_leftright.svg</dpad_leftright>
+            <dpad_all>./assets/theme-cyber/icons/help-icons/dpad_all.svg</dpad_all>
+            <thumbstick_click>./assets/theme-cyber/icons/help-icons/thumbstick_click.svg</thumbstick_click>
+            <button_l>./assets/theme-cyber/icons/help-icons/button_l.svg</button_l>
+            <button_r>./assets/theme-cyber/icons/help-icons/button_r.svg</button_r>
+            <button_lr>./assets/theme-cyber/icons/help-icons/button_lr.svg</button_lr>
+            <button_lt>./assets/theme-cyber/icons/help-icons/button_lt.svg</button_lt>
+            <button_rt>./assets/theme-cyber/icons/help-icons/button_rt.svg</button_rt>
+            <button_ltrt>./assets/theme-cyber/icons/help-icons/button_ltrt.svg</button_ltrt>
+            <button_a_XBOX>./assets/theme-cyber/icons/help-icons/button_a_XBOX.svg</button_a_XBOX>
+            <button_b_XBOX>./assets/theme-cyber/icons/help-icons/button_b_XBOX.svg</button_b_XBOX>
+            <button_x_XBOX>./assets/theme-cyber/icons/help-icons/button_x_XBOX.svg</button_x_XBOX>
+            <button_y_XBOX>./assets/theme-cyber/icons/help-icons/button_y_XBOX.svg</button_y_XBOX>
+            <button_back_XBOX>./assets/theme-cyber/icons/help-icons/button_back_XBOX.svg</button_back_XBOX>
+            <button_start_XBOX>./assets/theme-cyber/icons/help-icons/button_start_XBOX.svg</button_start_XBOX>
+            <button_back_XBOX360>./assets/theme-cyber/icons/help-icons/button_back_XBOX360.svg</button_back_XBOX360>
+            <button_start_XBOX360>./assets/theme-cyber/icons/help-icons/button_start_XBOX360.svg</button_start_XBOX360>
+            <button_a_PS>./assets/theme-cyber/icons/help-icons/button_a_PS.svg</button_a_PS>
+            <button_b_PS>./assets/theme-cyber/icons/help-icons/button_b_PS.svg</button_b_PS>
+            <button_x_PS>./assets/theme-cyber/icons/help-icons/button_x_PS.svg</button_x_PS>
+            <button_y_PS>./assets/theme-cyber/icons/help-icons/button_y_PS.svg</button_y_PS>
+            <button_back_PS123>./assets/theme-cyber/icons/help-icons/button_back_PS123.svg</button_back_PS123>
+            <button_start_PS123>./assets/theme-cyber/icons/help-icons/button_start_PS123.svg</button_start_PS123>
+            <button_back_PS4>./assets/theme-cyber/icons/help-icons/button_back_PS4.svg</button_back_PS4>
+            <button_start_PS4>./assets/theme-cyber/icons/help-icons/button_start_PS4.svg</button_start_PS4>
+            <button_back_PS5>./assets/theme-cyber/icons/help-icons/button_back_PS5.svg</button_back_PS5>
+            <button_start_PS5>./assets/theme-cyber/icons/help-icons/button_start_PS5.svg</button_start_PS5>
+            <button_a_switch>./assets/theme-cyber/icons/help-icons/button_a_XBOX.svg</button_a_switch>
+            <button_b_switch>./assets/theme-cyber/icons/help-icons/button_b_XBOX.svg</button_b_switch>
+            <button_x_switch>./assets/theme-cyber/icons/help-icons/button_x_XBOX.svg</button_x_switch>
+            <button_y_switch>./assets/theme-cyber/icons/help-icons/button_y_XBOX.svg</button_y_switch>
+            <button_back_switch>./assets/theme-cyber/icons/help-icons/button_back_switch.svg</button_back_switch>
+            <button_start_switch>./assets/theme-cyber/icons/help-icons/button_start_switch.svg</button_start_switch>
+            <button_a_SNES>./assets/theme-cyber/icons/help-icons/button_a_XBOX.svg</button_a_SNES>
+            <button_b_SNES>./assets/theme-cyber/icons/help-icons/button_b_XBOX.svg</button_b_SNES>
+            <button_x_SNES>./assets/theme-cyber/icons/help-icons/button_x_XBOX.svg</button_x_SNES>
+            <button_y_SNES>./assets/theme-cyber/icons/help-icons/button_y_XBOX.svg</button_y_SNES>
+            <button_back_SNES>./assets/theme-cyber/icons/help-icons/button_back_XBOX.svg</button_back_SNES>
+            <button_start_SNES>./assets/theme-cyber/icons/help-icons/button_start_XBOX.svg</button_start_SNES>
+
+        <!-- Animated UI Path ================================================================-->
+            <!-- System assets -->
+            <sysSsaver>system-video.json</sysSsaver>
+            <sysSsaverImg>system-video.webp</sysSsaverImg>
+
+            <sysVideo>system-video.json</sysVideo>
+            <sysVideoImg>system-video.webp</sysVideoImg>
+
+            <sysCart>system-video.json</sysCart>
+            <sysCartImg>system-video.webp</sysCartImg>
+
+            <!-- gamelist assets -->
+            <glistPlain>gamelist-plain.json</glistPlain>
+            <glistPlainImg>gamelist-plain.webp</glistPlainImg>
+
+            <glistGrid>gamelist-grid.json</glistGrid>
+            <glistGridImg>gamelist-grid.webp</glistGridImg>
+
+            <glistCart>gamelist-cart.json</glistCart>
+            <glistCartImg>gamelist-cart.webp</glistCartImg>
+
+        <!-- THEME TOGGLES ===================================================================-->
+
+            <!--Playtime *needs work*-->
+            <playtime>false</playtime>
+            
+            <!-- lottie UI animations -->
+            <lottieUI>false</lottieUI>
+
+            <!-- System BG video -->
+            <sysbkvid-vis>false</sysbkvid-vis>
+
+            <!-- lottie UI STAIC replacement -->
+            <imageUI>true</imageUI>
+
+            <!-- Game list lightbox & frames -->
+            <glistframe>true</glistframe>
+
+            <!-- Alpha logo Visible-->
+            <alphaTit>false</alphaTit>
+
+            <!-- noise lottie -->
+            <noise>false</noise>
+
+            <!-- glist bg video -->
+            <glistBGvidVis>false</glistBGvidVis>
+            <glistBGit>0</glistBGit>
+
+            <!-- glist bg image -->
+            <glistBGimgVis>true</glistBGimgVis>
+
+            <!-- Noise video -->
+            <glistNoise>false</glistNoise>
+            <sysNoise>false</sysNoise>
+            <noiseItCount>1</noiseItCount>
+            <sNOpacity>.1</sNOpacity>
+            <iterationDone>none</iterationDone>
+
+            <!-- sys view image/video frame -->
+            <frame>false</frame>
+
+            <!-- Scanlines for last/recently played images/videos-->
+            <scanLines>false</scanLines>
+            
+            <!-- sys view cartridge shadow -->
+            <cshadow>false</cshadow>
+
+            <!-- glist bgfill gradient (for still image) -->
+            <bgfil>false</bgfil>
+
+            <!-- glist cover art trasparency -->
+            <tvalue>FF</tvalue>
+            <coverTcolor>000000</coverTcolor>
+
+            <!-- Cover & video Z Index-->
+            <coverZ>2</coverZ>
+            <glistVidZ>3</glistVidZ>
+
+        <!-- Color UI ===================================================================-->
+
+            <glist>FFE100</glist>
+            <gmenu>FFE100</gmenu>
+            <gmenuAlt>FFE100</gmenuAlt>
+            <gmenuAlt2>FFE100</gmenuAlt2>
+            <gameratingAltColor>FFE100</gameratingAltColor>
+            <sysLogoColor>FCF0A7</sysLogoColor>
+            <sysLogoAltColor>FCF0A7</sysLogoAltColor>
+            <badgeIconColor>${white}</badgeIconColor>
+            <controllerColor>${black}</controllerColor>
+            <gameratingColor>FFE100</gameratingColor>
+            <ccColor>444444</ccColor>
+            <folderICNcolor>${black}</folderICNcolor>
+            <folderPOS>.5 .6 </folderPOS>
+            <folderSize>.35</folderSize>
+            <controlPOS>.49 .58</controlPOS>
+            <cartColor>71fee7</cartColor>
+            <cartOpacity>.5</cartOpacity>
+            <gvOpacity>.6</gvOpacity>
+            <gvColor>B186FF</gvColor>
+            <gvSat>0</gvSat>
+            <gvBright>2</gvBright>
+
+        <!-- SOUNDS ===================================================================-->
+
+            <soundBrowse>./assets/theme-cyber/sounds/systembrowse.wav</soundBrowse>
+            <soundQselect>./assets/theme-cyber/sounds/quicksysselect.wav</soundQselect>
+            <soundSelect>./assets/theme-cyber/sounds/select.wav</soundSelect>
+            <soundBack>./assets/theme-cyber/sounds/back.wav</soundBack>
+            <soundScroll>./assets/theme-cyber/sounds/scroll.wav</soundScroll>
+            <soundFav>./assets/theme-cyber/sounds/favorite.wav</soundFav>
+            <soundLaunch>./assets/theme-cyber/sounds/launch.wav</soundLaunch>
+
+        <!-- ASSETS ===================================================================-->
+
+            <!-- Fonts & treatment -->
+            <carouselFont>./assets/theme-cyber/type/Kleemax.otf</carouselFont>
+            <gcarouselFont>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</gcarouselFont>
+            <carouselFontSize>.028</carouselFontSize>
+            <!-- OCR KleemaxDemo.otf -->
+            <carouselLC>uppercase</carouselLC>
+            <carouselGL>capitalize</carouselGL>
+            <carouselColor>FCF0A7</carouselColor>
+            <carouselAltColor>FCF0A7</carouselAltColor>
+            <carItemColor>FCF0A7</carItemColor>
+            <carItemAltColor>FFE100</carItemAltColor>
+            <carItemAltColor2>FFE100</carItemAltColor2>
+
+            <recentTit>./assets/theme-cyber/type/lcddot_tr.ttf</recentTit>
+            <recentTitColor>bcc5ff</recentTitColor>
+            <recentRotate>0</recentRotate>
+            <roidRotate>0</roidRotate>
+            
+            <roidGradientEnd>810DFF</roidGradientEnd>
+            <gtitvis>false</gtitvis>
+
+            <gstats>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</gstats>
+            <gstatsColor>FFE100</gstatsColor>
+            <gstatsAltColor>FFE100</gstatsAltColor>
+
+            <clock>./assets/theme-cyber/type/Reiswar.ttf</clock>
+            <!-- OSCURA.otf Reiswar.ttf -->
+
+            <battlvl>./assets/theme-cyber/type/Reiswar.ttf</battlvl>
+            <!-- OSCURA.otf Reiswar.ttf -->
+
+            <helpFont>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</helpFont>
+
+            <alpha>./assets/theme-cyber/type/OSCURA.otf</alpha>
+
+            <gcount>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</gcount>
+            <gcountColor>FFE100</gcountColor>
+
+            <cCollectionSys>./../assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</cCollectionSys>
+            <cCollectionColor>FFE100</cCollectionColor>
+
+            <playtimeFont>./assets/theme-cyber/type/ThedusCondensedLight-Regular.otf</playtimeFont>
+            <playtimeColor>FFE100</playtimeColor>
+
+            <starFilled>./assets/theme-cyber/icons/star-full.svg</starFilled>
+            <starEmpty>./assets/theme-cyber/icons/star-empty.svg</starEmpty>
+            
+
+            <!-- Background Images -->
+            <sysbk>./assets/theme-cyber/animations/background.webp</sysbk>
+            <cartbk>./assets/theme-cyber/animations/cartbg.webp</cartbk>
+            <sysbkvid>./assets/theme-cyber/animations/mainbg.mp4</sysbkvid>
+            <cartbkvid>./assets/theme-cyber/animations/cartbg.mp4</cartbkvid>
+            <bgGradientEnd>ffffff</bgGradientEnd>
+            <glGvbgV>bg-grid.mp4</glGvbgV>
+            <glGvbgI>gbackground-grid.webp</glGvbgI>
+            <gameBKv>./assets/theme-cyber/animations/gamelist/gbackground-plain.webp</gameBKv>
+            <gameBKp>./assets/theme-cyber/animations/gamelist/gbackground-plain.webp</gameBKp>
+            <gameBKb>./assets/theme-cyber/animations/gamelist/gbackground-blank.webp</gameBKb>
+            <gbkOpacity>1</gbkOpacity>
+
+            <!-- Badge Icons -->
+            <favoriteB>./assets/theme-cyber/icons/badge-favorite.svg</favoriteB>
+            <collectionB>./assets/theme-cyber/icons/badge-collection.svg</collectionB>
+            <folderB>./assets/theme-cyber/icons/badge-folder.svg</folderB>
+            <completedB>./assets/theme-cyber/icons/badge-complete.svg</completedB>
+            <kidgameB>./assets/theme-cyber/icons/badge-kidgame.svg</kidgameB>
+            <brokenB>./assets/theme-cyber/icons/badge-broken.svg</brokenB>
+            <controllerB>./assets/theme-cyber/icons/badge-controller.svg</controllerB>
+            <altemulatorB>./assets/theme-cyber/icons/badge-altemulator.svg</altemulatorB>
+            <manualB>./assets/theme-cyber/icons/badge-manual.svg</manualB>
+
+            <!-- Status Indicators -->
+            <icon_battery_low>./assets/theme-cyber/icons/bat-low.svg</icon_battery_low>
+            <icon_battery_medium>./assets/theme-cyber/icons/bat-med.svg</icon_battery_medium>
+            <icon_battery_high>./assets/theme-cyber/icons/bat-high.svg</icon_battery_high>
+            <icon_battery_full>./assets/theme-cyber/icons/bat-full.svg</icon_battery_full>
+            <battery_charging>./assets/theme-cyber/icons/bat-charg.svg</battery_charging>
+
+            <!-- responsive sizes ===================================================================-->
+            <gamevidP-1-1>0.498 0.517</gamevidP-1-1>
+            <gamevidP-8-7>0.5 0.518</gamevidP-8-7>
+            <gamevidP-5-4>0.498 0.518</gamevidP-5-4>
+            <gamevidP-4-3>0.497 0.519</gamevidP-4-3>
+            <gamevidP-3-2>0.497 0.519</gamevidP-3-2>
+            <gamevidP-16-10>0.498 0.519</gamevidP-16-10>
+            <gamevidP-16-9>0.498 0.519</gamevidP-16-9>
+            <gamevidP-195-9>0.498 0.524</gamevidP-195-9>
+            <gamevidP-20-9>0.498 0.524</gamevidP-20-9>
+            <gamevidP-21-9>0.498 0.524</gamevidP-21-9>
+            <gamevidP-5-3v>0.495 0.522</gamevidP-5-3v>
+
+            <gamevidS-1-1>.455 .284</gamevidS-1-1>
+            <gamevidS-8-7>.4 .284</gamevidS-8-7>
+            <gamevidS-5-4>.365 .284</gamevidS-5-4>
+            <gamevidS-4-3>.344 .284</gamevidS-4-3>
+            <gamevidS-3-2>.307 .284</gamevidS-3-2>
+            <gamevidS-16-10>.286 .284</gamevidS-16-10>
+            <gamevidS-16-9>.255 .284</gamevidS-16-9>
+            <gamevidS-195-9>.257 .347</gamevidS-195-9>
+            <gamevidS-20-9>.257 .347</gamevidS-20-9>
+            <gamevidS-21-9>.257 .377</gamevidS-21-9>
+            <gamevidS-5-3v>.761 .284</gamevidS-5-3v>
+
+            <cart-1-1>0.84 0.44</cart-1-1>
+            <cart-8-7>0.8 0.44</cart-8-7>
+            <cart-5-4>0.775 0.44</cart-5-4>
+            <cart-4-3>0.758 0.44</cart-4-3>
+            <cart-3-2>0.729 0.44</cart-3-2>
+            <cart-16-10>0.715 0.44</cart-16-10>
+            <cart-16-9>0.693 0.44</cart-16-9>
+            <cart-195-9>0.693 0.43</cart-195-9>
+            <cart-20-9>0.693 0.44</cart-20-9>
+            <cart-21-9>0.693 0.44</cart-21-9>
             <cart-5-3v>0.5 0.83</cart-5-3v>
         </variables>
     </colorScheme>

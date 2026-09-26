@@ -5,8 +5,8 @@
             <pos>0 0</pos>	
             <size>1 .9</size>
             <itemSize>.2 0.1</itemSize> 
-            <fontPath>${carouselFont}</fontPath>
-            <letterCase>${carouselLC}</letterCase>
+            <fontPath>${gcarouselFont}</fontPath>
+            <letterCase>${carouselGL}</letterCase>
             <imageType>none</imageType>
             <itemScale>2.6</itemScale>
             <itemsBeforeCenter>0</itemsBeforeCenter>
@@ -41,7 +41,8 @@
             <letterCase>lowercase</letterCase>
             <zIndex>5</zIndex>
         </text>
-        <text name="playtimeLBL">    
+        <text name="playtimeLBL"> 
+                <visible>${playtime}</visible>   
                 <pos>.57 .965</pos>
                 <size>.15 .018</size>
                 <horizontalAlignment>left</horizontalAlignment>
@@ -53,7 +54,8 @@
                 <lineSpacing>1</lineSpacing>
                 <zIndex>10</zIndex>
         </text> 
-        <text name="playtime">    
+        <text name="playtime">
+                <visible>${playtime}</visible>      
                 <pos>.653 .965</pos>
                 <size>.15 .018</size>
                 <horizontalAlignment>left</horizontalAlignment>
@@ -85,6 +87,8 @@
             <pos>0.045 0.45</pos>
             <size> .053 .03 </size>
             <color>${gameratingColor}</color>
+            <filledPath>${starFilled}</filledPath>
+            <unfilledPath>${starEmpty}</unfilledPath>
             <zIndex>5</zIndex>
         </rating>
         
@@ -98,7 +102,7 @@
             <gradientType>vertical</gradientType>
             <scrollFadeIn>true</scrollFadeIn>
             <default>./assets/default-media/covers/${system.theme}.webp</default>
-            <zIndex>5</zIndex>
+            <zIndex>${coverZ}</zIndex>
         </image>
 
         <badges name="gbadges">
@@ -124,8 +128,9 @@
 
             <folderLinkIconColor>${folderICNcolor}</folderLinkIconColor>
             <folderLinkPos>${folderPOS}</folderLinkPos>
+            <controllerPos>${controlPOS}</controllerPos>
             <folderLinkSize>${folderSize}</folderLinkSize>
-            <customFolderLinkIcon>./assets/icons/folder-link.svg</customFolderLinkIcon>
+            <customFolderLinkIcon>./assets/${assetPath}/icons/folder-link.svg</customFolderLinkIcon>
 
             <customControllerIcon controller="gamepad_generic">./assets/icons/controllers/gamepad_generic.svg</customControllerIcon>
             <customControllerIcon controller="gamepad_nintendo_nes">./assets/icons/controllers/gamepad_nintendo_nes.svg</customControllerIcon>
@@ -164,6 +169,20 @@
             <customControllerIcon controller="unknown">./assets/icons/controllers/unknown.svg</customControllerIcon>
                 <zIndex>6</zIndex>
         </badges>
+        <video name="glist-bg-vid">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <cropSize>1 1</cropSize>
+            <path>./assets/${assetPath}/animations/gamelist/bg-plain.mp4</path>
+            <zIndex>1</zIndex>
+            <audio>false</audio>
+            <visible>${glistBGvidVis}</visible>
+            <onIterationsDone>image</onIterationsDone>
+            <defaultImage>./assets/${assetPath}/animations/gamelist/gbackground-plain.webp</defaultImage>
+            <iterationCount>${glistBGit}</iterationCount>
+            <fadeInTime>0</fadeInTime>
+            <fadeInType>black</fadeInType>
+        </video>
         <image name="lightbox">
             <visible>${glistframe}</visible>
             <pos>0 0</pos>
@@ -222,13 +241,16 @@
             <path>./assets/${assetPath}/animations/noise.mp4</path>
             <gradientType>vertical</gradientType>
         </video>
+        
         <image name="macimg-background">
             <pos>0 0 </pos>
+            <visible>${glistBGimgVis}</visible>
             <origin>0 0 </origin>
             <size>1 1</size>
             <path>${gameBKp}</path>
             <zIndex>0</zIndex>
         </image> 
+        
         <image name="bgfil">
             <visible>${bgfil}</visible>
             <pos>0 0</pos>
@@ -270,46 +292,46 @@
             <iconColor>${gmenu}</iconColor>
             <letterCase>lowercase</letterCase>
             <entries>left/right, x, y, start, back, l, r, lt, rt</entries>
-             <customButtonIcon button="dpad_updown">./assets/icons/dpad_updown.svg</customButtonIcon>
-            <customButtonIcon button="dpad_leftright">./assets/icons/dpad_leftright.svg</customButtonIcon>
-            <customButtonIcon button="dpad_all">./assets/icons/dpad_all.svg</customButtonIcon>
-            <customButtonIcon button="thumbstick_click">./assets/icons/thumbstick_click.svg</customButtonIcon>
-            <customButtonIcon button="button_l">./assets/icons/button_l.svg</customButtonIcon>
-            <customButtonIcon button="button_r">./assets/icons/button_r.svg</customButtonIcon>
-            <customButtonIcon button="button_lr">./assets/icons/button_lr.svg</customButtonIcon>
-            <customButtonIcon button="button_lt">./assets/icons/button_lt.svg</customButtonIcon>
-            <customButtonIcon button="button_rt">./assets/icons/button_rt.svg</customButtonIcon>
-            <customButtonIcon button="button_ltrt">./assets/icons/button_ltrt.svg</customButtonIcon>
-            <customButtonIcon button="button_a_XBOX">./assets/icons/button_a_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_b_XBOX">./assets/icons/button_b_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_x_XBOX">./assets/icons/button_x_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_y_XBOX">./assets/icons/button_y_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_back_XBOX">./assets/icons/button_back_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_start_XBOX">./assets/icons/button_start_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_back_XBOX360">./assets/icons/button_back_XBOX360.svg</customButtonIcon>
-            <customButtonIcon button="button_start_XBOX360">./assets/icons/button_start_XBOX360.svg</customButtonIcon>
-            <customButtonIcon button="button_a_PS">./assets/icons/button_a_PS.svg</customButtonIcon>
-            <customButtonIcon button="button_b_PS">./assets/icons/button_b_PS.svg</customButtonIcon>
-            <customButtonIcon button="button_x_PS">./assets/icons/button_x_PS.svg</customButtonIcon>
-            <customButtonIcon button="button_y_PS">./assets/icons/button_y_PS.svg</customButtonIcon>
-            <customButtonIcon button="button_back_PS123">./assets/icons/button_back_PS123.svg</customButtonIcon>
-            <customButtonIcon button="button_start_PS123">./assets/icons/button_start_PS123.svg</customButtonIcon>
-            <customButtonIcon button="button_back_PS4">./assets/icons/button_back_PS4.svg</customButtonIcon>
-            <customButtonIcon button="button_start_PS4">./assets/icons/button_start_PS4.svg</customButtonIcon>
-            <customButtonIcon button="button_back_PS5">./assets/icons/button_back_PS5.svg</customButtonIcon>
-            <customButtonIcon button="button_start_PS5">./assets/icons/button_start_PS5.svg</customButtonIcon>
-            <customButtonIcon button="button_a_switch">./assets/icons/button_a_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_b_switch">./assets/icons/button_b_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_x_switch">./assets/icons/button_x_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_y_switch">./assets/icons/button_y_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_back_switch">./assets/icons/button_back_switch.svg</customButtonIcon>
-            <customButtonIcon button="button_start_switch">./assets/icons/button_start_switch.svg</customButtonIcon>
-            <customButtonIcon button="button_a_SNES">./assets/icons/button_a_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_b_SNES">./assets/icons/button_b_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_x_SNES">./assets/icons/button_x_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_y_SNES">./assets/icons/button_y_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_back_SNES">./assets/icons/button_back_XBOX.svg</customButtonIcon>
-            <customButtonIcon button="button_start_SNES">./assets/icons/button_start_XBOX.svg</customButtonIcon>
+            <customButtonIcon button="dpad_updown">${dpad_updown}</customButtonIcon>
+            <customButtonIcon button="dpad_leftright">${dpad_leftright}</customButtonIcon>
+            <customButtonIcon button="dpad_all">${dpad_all}</customButtonIcon>
+            <customButtonIcon button="thumbstick_click">${thumbstick_click}</customButtonIcon>
+            <customButtonIcon button="button_l">${button_l}</customButtonIcon>
+            <customButtonIcon button="button_r">${button_r}</customButtonIcon>
+            <customButtonIcon button="button_lr">${button_lr}</customButtonIcon>
+            <customButtonIcon button="button_lt">${button_lt}</customButtonIcon>
+            <customButtonIcon button="button_rt">${button_rt}</customButtonIcon>
+            <customButtonIcon button="button_ltrt">${button_ltrt}</customButtonIcon>
+            <customButtonIcon button="button_a_XBOX">${button_a_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_b_XBOX">${button_b_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_x_XBOX">${button_x_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_y_XBOX">${button_y_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_back_XBOX">${button_back_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_start_XBOX">${button_start_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_back_XBOX360">${button_back_XBOX360}</customButtonIcon>
+            <customButtonIcon button="button_start_XBOX360">${button_start_XBOX360}</customButtonIcon>
+            <customButtonIcon button="button_a_PS">${button_a_PS}</customButtonIcon>
+            <customButtonIcon button="button_b_PS">${button_b_PS}</customButtonIcon>
+            <customButtonIcon button="button_x_PS">${button_x_PS}</customButtonIcon>
+            <customButtonIcon button="button_y_PS">${button_y_PS}</customButtonIcon>
+            <customButtonIcon button="button_back_PS123">${button_back_PS123}</customButtonIcon>
+            <customButtonIcon button="button_start_PS123">${button_start_PS123}</customButtonIcon>
+            <customButtonIcon button="button_back_PS4">${button_back_PS4}</customButtonIcon>
+            <customButtonIcon button="button_start_PS4">${button_start_PS4}</customButtonIcon>
+            <customButtonIcon button="button_back_PS5">${button_back_PS5}</customButtonIcon>
+            <customButtonIcon button="button_start_PS5">${button_start_PS5}</customButtonIcon>
+            <customButtonIcon button="button_a_switch">${button_a_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_b_switch">${button_b_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_x_switch">${button_x_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_y_switch">${button_y_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_back_switch">${button_back_switch}</customButtonIcon>
+            <customButtonIcon button="button_start_switch">${button_start_switch}</customButtonIcon>
+            <customButtonIcon button="button_a_SNES">${button_a_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_b_SNES">${button_b_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_x_SNES">${button_x_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_y_SNES">${button_y_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_back_SNES">${button_back_XBOX}</customButtonIcon>
+            <customButtonIcon button="button_start_SNES">${button_start_XBOX}</customButtonIcon>
         </helpsystem>
     </view>
      <aspectRatio name="1:1">

@@ -17,19 +17,27 @@
     <fontSize>medium</fontSize>
     <fontSize>small</fontSize>
 
+    <colorScheme name="clean">
+        <label>Glow</label>
+    </colorScheme>
+    <colorScheme name="cleanLP">
+        <label>Glow - No Animation </label>
+    </colorScheme>
+
     <colorScheme name="mac">
-        <label>Mac - Default</label>
+        <label>Mac</label>
     </colorScheme>
     <colorScheme name="maclp">
         <label>Mac - No Animation</label>
     </colorScheme>
 
-     <colorScheme name="clean">
-        <label>Clean UI</label>
+    <colorScheme name="cyber">
+        <label>Space</label>
     </colorScheme>
-     <colorScheme name="cleanLP">
-        <label>Clean UI - No Animation </label>
+    <colorScheme name="cyberlp">
+        <label>Space - No Animation</label>
     </colorScheme>
+
     
     
     <variant name="videos-videos">
